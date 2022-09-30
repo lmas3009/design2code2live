@@ -6,6 +6,8 @@ Can you code? I will provide design.
 
 Build the code from the design and push to repository. You can see your design live from `https://localhost:3/design{id}`
 
+"**Grab your design fast. We have only 20 designs**"
+
 ## Contribute through Hacktoberfest 2022 
 HACKTOBERFEST IS FOR EVERYONE. WHETHER IT’S YOUR FIRST TIME—OR YOUR NINTH—IT’S ALMOST TIME TO HACK OUT FOUR PRISTINE PULL/MERGE REQUESTS AND COMPLETE YOUR MISSION FOR OPEN SOURCE  
 
