@@ -1,0 +1,21 @@
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(219, 208, 208);
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar_container {
+        padding: 30px 20px;
+    }
+    
+    .heading {
+        font-size: 16px;
+    } 
+}

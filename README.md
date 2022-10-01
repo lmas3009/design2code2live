@@ -23,10 +23,7 @@ Link 👉https://hacktoberfest.com/
 
 2. Get assigned for the issue
 
-3. Fork the repository and clone using 
-```
-git clone {repo link}
-```
+3. Fork the repository
 
 4. Create a new branch
 ```
