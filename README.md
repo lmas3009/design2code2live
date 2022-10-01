@@ -4,7 +4,7 @@ Welcome all developers to design2code2live.
 
 Can you code? I will provide design.
 
-Build the code from the design and push to repository. You can see your design live from `https://localhost:3/design{id}`
+Build the code from the design and push to repository. You can see your design live from `https://www.aravindkumarv.com/design2code2live/{DesignName}`
 
 "**Grab your design fast. We have only 20 designs**"
 
