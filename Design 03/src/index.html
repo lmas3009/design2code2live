@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body class="w-screen h-screen flex justify-center items-center flex-col">
+    <p class="text-xl font-medium">onewardly</p>
+    <h1 class="text-3xl mt-6 font-medium">Launching soon</h1>
+    <div class="flex mt-6 space-x-2">
+        <div class="flex flex-col items-center">
+            <h1 class="text-3xl font-medium" id="days"></h1>
+            <p class="text-xl">days</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <h1 class="text-3xl font-medium" id="minutes"></h1>
+            <p class="text-xl">mins</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <h1 class="text-3xl font-medium" id="seconds"></h1>
+            <p class="text-xl">secs</p>
+        </div>
+    </div>
+    <img src="../image 1.png" alt="" class="h-[20rem] mt-12 aspect-square
+    ">
+    <!-- <p id="demo"></p> -->
+    <script>
+        var date = new Date("October 31, 2022, 11:59:59").getTime();
+        var x = setInterval(function () {
+            var now = new Date().getTime();
+            var distance = date - now;
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / (1000));
+            document.getElementById("days").innerHTML = days + " : ";
+            document.getElementById("minutes").innerHTML = " " + minutes + " : ";
+            document.getElementById("seconds").innerHTML = " " + seconds;
+        })
+    </script>
+</body>
+
+</html>
