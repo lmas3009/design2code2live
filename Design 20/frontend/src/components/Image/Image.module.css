@@ -1,0 +1,17 @@
+.img_container {
+    margin-top: 60px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    grid-row-gap: 35px;
+    grid-column-gap: 10px;
+    justify-content: center;
+    margin: 50px auto;
+    list-style: none;
+}
+
+.img {
+    border-radius: 20px;
+    height: 400px;
+    width: 250px;
+}
