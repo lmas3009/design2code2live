@@ -1,0 +1,48 @@
+.serachBox_container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.heading {
+    font-size: 38px;
+    font-weight: 300;
+    color: rgb(219, 208, 208);
+}
+
+.input_container {
+    margin-top: 30px;
+}
+
+.textInput {
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 40%;
+    font-size: 18px;
+}
+
+.searchIcon {
+    width: 20px;
+    margin-left: -30px;
+    margin-top: 6px;
+}
+
+@media only screen and (max-width: 600px) {
+    .heading {
+        font-size: 34px;
+        font-weight: 400;
+    }
+    .textInput {
+        padding: 15px 20px;
+        width: 60%;
+        font-size: 18px;
+    }
+    
+    .searchIcon {
+        width: 18px;
+        margin-left: -30px;
+    }
+}

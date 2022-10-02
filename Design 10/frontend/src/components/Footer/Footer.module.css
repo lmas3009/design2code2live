@@ -1,0 +1,11 @@
+.footer{
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+}
+
+.text {
+font-size: 18px;
+margin: 10px 0px;
+font-weight: 500;
+}
