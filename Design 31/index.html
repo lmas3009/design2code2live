@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolate</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section class="App">
+        <header>
+          <a href="#"><img src="logo.png" alt="Logo" class="app-logo"/></a>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Products & Sales</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </header>
+        <div class="content">
+          <div class="textBox">
+            <h2>Chocolate<br/><span>First Love of Everyone</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+               exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a href="#">Buy Now</a>
+            </div>
+            <div class="imgBox">
+              <img src="bubbly.png" alt="kitkat chocolate" class="chocolate"/>
+              </div>
+        </div>
+        <ul class="thumb">
+          <li><img src="bubbly.png" onClick="imgslider('bubbly.png');changeBgcolor('#381192')"/></li>
+          <li><img src="kitkat.png" onClick="imgslider('kitkat.png');changeBgcolor('#EF5B44')"/></li>
+        </ul>
+        <ul class="social-icon">
+          <li><a href="#"><img src="facebook.png"/></a></li>
+          <li><a href="#"><img src="instagram.png"/></a></li>
+          <li><a href="#"><img src="twitter.png"/></a></li>
+        </ul>
+      </section>
+
+      <script type="text/javascript">
+
+        function imgslider(anything){
+          document.querySelector('.chocolate').src= anything;
+        }
+        function changeBgcolor(color){
+          const sec=document.querySelector('.App')
+          sec.style.background  = color;
+        }
+      </script>
+    
+</body>
+</html>
