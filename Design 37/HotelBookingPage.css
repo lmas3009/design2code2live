@@ -1,0 +1,46 @@
+
+.bg-container {
+    background-image: url("https://res.cloudinary.com/dh7yalemz/image/upload/v1664682953/ciudad-maderas-MXbM1NrRqtI-unsplash_lh7anq.jpg");
+    height: 100vh;
+    background-size: cover;
+    padding: 10px;
+}
+
+.info-card {
+    background-color: #000000e6;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.head {
+    color: white;
+    font-size: 20px;
+    font-family: "Bree Serif";
+}
+
+.p1 {
+    color: white;
+    font-size: 12px;
+    font-family: "Roboto";
+}
+
+.p2 {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 20px;
+}
+
+.button-container {
+    text-align: center;
+    margin: 18px;
+}
+
+.button {
+    font-family: "Roboto";
+    border-radius: 10px;
+    border-width: 0px;
+    font-size: 12px;
+    padding: 15px;
+    width: 120px;
+    height: 38px;
+}
