@@ -1,0 +1,41 @@
+{  
+   margin: 0;  
+   padding: 0;  
+   box-sizing: border-box;  
+ }  
+ body {  
+   display: flex;  
+   justify-content: center;  
+   align-items: center;  
+   width: 100vw;  
+   height: 100vh;  
+   overflow: hidden;  
+ }  
+.innerbox::before {  
+   content: 'M G';
+  color:white;
+  text-align:center;
+  text-decoration:strong;
+  margin-top: 75px;
+   width: 100px;  
+   height: 100px; 
+   position: absolute;  
+ }  
+
+ .insta {  
+   width: 150px;  
+   height: 150px;  
+   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);  
+   border-radius: 35px;  
+   display: grid;  
+   place-items: center;  
+ }  
+ .innerbox {  
+   width: 120px;  
+   height: 120px;  
+   border: 10px solid #fff;  
+   border-radius: 32px;  
+   display: grid;  
+   place-items: center;  
+   position: relative;  
+ }
