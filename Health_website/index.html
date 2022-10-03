@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedTech</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="pngegg.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="pngegg.png">
+    <link rel="stylesheet" type="text/css" href="medstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Qahiri&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+</head>
+<body class="sec">
+    <section id="nav_bar" class="animate__animated animate__fadeInDown">
+            <div class="nav_left">
+               <div class="bars"></div>
+            <a href="index.html"><h1>Med<span id="different">Tech</span></h1></a>
+            </div>
+            <div class="nav_right">
+                <ul>
+                 <a href="index.html"><li id="start">HOME</li></a> 
+                 <a href="#Appointment"><li>APPOINTMENT</li></a> 
+                 <a href="#About"><li>ABOUT</li></a> 
+                 <a href="#Contact"><li>CONTACT</li></a> 
+                </ul>
+            </div>
+            <div class ="nav_last">
+                 <a href="#login"><button id="signin_btn">SIGN IN</button></a>
+                    <a class="social" href="https://www.facebook.com/abhay.anand.52090/"><i class="fa fa-facebook"></i></a>
+                    <a class="social" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="social" href="https://www.instagram.com/iamabhayanand/"><i class="fa fa-instagram"></i></a>
+            </div>
+    </section>
+    <div class="slide_right">
+        <ul>
+         <a href="index.html">
+            <i class="fa fa-home"></i><li id="start">HOME</li></a> 
+         <a href="#Appointment">
+            <i class="fa fa-calendar-check-o" aria-hidden="true"></i><li>APPOINTMENT</li></a> 
+         <a href="#About">
+            <i class="fa fa-address-card-o" aria-hidden="true"></i><li>ABOUT</li></a> 
+         <a href="#Contact">
+            <i class="fa fa-phone" aria-hidden="true"></i><li>CONTACT</li></a> 
+        </ul>
+        <div class="toggle"></div>
+    </div>
+    <section id="content_main">
+        <div class="tag_line">
+            <h1 class="animate__animated animate__zoomIn">Health is Wealth</h1>
+            <p class="animate__animated animate__fadeIn">A new system <br>to get the best health care</p>
+        </div>
+        <div id="topic_btn"class=" animate__animated animate__slideInUp">
+            <a href="Common Illness.html" ><button id="allergies_btn">Commom Illness</button></a>
+            <a href="covid19.html"><button id="covid">Covid 19</button></a> 
+        </div>
+    </section>
+    <script>
+        const sec = document.querySelector('.sec')
+        const toogle = document.querySelector('.bars');
+        toogle.onclick = function(){
+            sec.classList.toggle('slide')
+        }
+    </script>
+    <script type="text/javascript" src="medslider.js"></script>
+</body>
+</html>
