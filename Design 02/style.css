@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    background-image: url(image\ 1.png);
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;     
+    color: #000000;
+}
+
+.navItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 450;
+}
+
+.navItems a{
+    margin-right: 3%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.navItems a:hover{
+    color: #5e5e5e;
+}
+
+.navItems p{
+    margin-left: 3%;
+}
+
+.navItems p:hover{
+    cursor: pointer;
+    color: #5e5e5e;
+}
+
+.content{
+    width: 60%;
+    margin: 10% 2%;
+    padding: 5% 5%;
+}
+
+.content h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.content span{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.typebox{
+    border: 2px solid #000000;
+    border-radius: 3px;
+    display: flex;
+    padding: 12px 12px 12px 7px;
+    font-size: 18px;
+    width: 60%;
+    margin-top: 50px;
+}
+
+.typebox:hover{
+    cursor: pointer;
+}
+
+::placeholder {
+    color: #777676;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.btn{
+    width: 25%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #5953fc;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #5e5ae5;
+}
+
+.timer{
+    width: 50%;
+    position: relative;
+    bottom: 78vh;
+    left: 25%;
+    text-align: center;
+    font-size: 22px;
+}
+
+.timer h3{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#clockdiv{
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+}
+
+.smalltext{
+    margin: 2px 6px;
+    font-size: 20px;
+}
