@@ -1,0 +1,338 @@
+body{
+    margin: 0%;
+}
+
+.navbar{
+   width: 100%;
+    background-color: black;
+    margin: 0px ;
+    text-align: center;
+    overflow: auto;
+    
+    
+}
+.navbar-brand{
+     font-family: 'Ubuntu', sans-serif;
+     font-size: 2.5rem;
+     font-weight: bold;
+     color: white;
+}
+.nav-item{
+    padding: 0 25px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-light', sans-serif;
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+}
+
+
+.title1{
+    height: 500px;
+}
+.header{
+    margin-top:13%;
+    text-align: center;
+    width: 40%;
+    margin-left:30% ;
+}
+.overlay-image{
+   position: absolute;
+   bottom: 0;
+   left: 0ch;
+   top: 0;
+   right:0;
+   background-position: center;
+   background-size: cover;
+   opacity: 0.4;
+   width: 100%;
+   height: auto;
+
+
+}
+.btn {
+    background: #000000;
+    background-image: -webkit-linear-gradient(top, #000000, #242318);
+    background-image: -moz-linear-gradient(top, #000000, #242318);
+    background-image: -ms-linear-gradient(top, #000000, #242318);
+    background-image: -o-linear-gradient(top, #000000, #242318);
+    background-image: linear-gradient(to bottom, #000000, #242318);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 43px;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    margin-top: 3%;
+  }
+  
+  .header h5{
+   color: #c60c0c;
+font-family: 'Ubuntu', sans-serif;
+  }
+
+
+.container-fluid{
+    width: 100%;
+    height: 737px;
+}
+
+
+.section2{
+    background-color: rgb(244, 188, 119);
+   height: 900px;
+   width: 100%;
+   text-align: center;
+   padding-top: 6%;
+   margin-top: 0;
+}
+.section2 h6{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.section2 h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #f96000;
+}
+.dessert{
+    width: 250px;
+    height: auto;
+}
+.row{
+    margin-top: 40px;
+    padding-bottom: 2%;
+}
+.header h1{
+  
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+  font-weight: 800;
+    font-size: 90px;
+   
+    color: #9b4f0cde;
+
+}
+h2{
+    text-align: center;
+}
+.card{
+    padding: 15px;
+}
+.testimonial-pic{
+    width: 100px;
+     height: auto;
+    border-radius: 100%;
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.galleries{
+ padding-top: 80px;
+}
+.testimonial{
+    padding-top: 80px;  
+    text-align: center;
+}
+#testimonials{
+    padding-top: 2%;
+}
+#Selecting-Meal{
+    margin-top: 0;
+    background-color: #F4BC77;
+}
+
+/*photogallery*/
+.gallery{
+    display: block;
+    float: left;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+   overflow: hidden;
+   border-radius: 10%;
+}
+.photogallery{
+  margin-left: 120px;
+  width: 80%;
+  margin-top: 30px;
+ }
+.gallery:hover{
+    transform: scale(1.2,1.2);
+    transition: 0.3s;
+    z-index: 2;
+}
+
+/*events*/
+.events-container{
+    background-color: rgb(241, 186, 119);
+    padding: 7% 15%;
+}
+.events{
+    width: 400px;
+    height: 450px;
+    float: left;
+    padding-bottom: 5%;
+}
+.eventdescription{
+    text-align: center;
+    
+    padding-bottom: 8%;
+    line-height: 2;
+   
+}
+#events h3{
+    font-family: 'Poppins', sans-serif;
+}
+#events h6{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+
+
+   
+
+/*footer*/
+
+   #footer{
+    background-color: rgba(85, 82, 82, 0.759);
+    padding: 3% 13%;
+    color: rgba(255, 255, 255, 0.707);
+    text-align: center;
+ 
+}  
+#footer h3{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(57, 56, 56);
+}
+ .icon2{
+      padding: 15px;
+ }
+.connect{
+    text-align: center;  
+}
+.connect:hover{
+    color: rgb(51, 49, 49);
+}
+
+
+
+/*Select your meal*/
+.carousel-item {
+    height: 600px;
+    align-items: center;
+ 
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 30px;
+    border-radius: 50%;
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+.breakfast{
+    position: absolute;
+    margin-left: 60px;
+    max-width: 700px;
+    margin: auto;
+    overflow: auto;
+   
+    
+}
+.img1{
+    margin:5px;
+    float: left;
+    width: 300px;
+}
+.img1 img{
+    width: 100%;
+    height: 200px;
+}
+.description{
+    padding: 15px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.lunch{
+    position: absolute;
+    margin-left: 60px;
+    max-width: 700px;
+    margin: auto;
+    overflow: auto;
+}
+.dinner{
+    position: absolute;
+    margin-left: 60px;
+    max-width: 700px;
+    margin: auto;
+    overflow: auto;
+}
+.Drinks{
+    position: absolute;
+    margin-left: 60px;
+    max-width: 700px;
+    margin: auto;
+    overflow: auto;
+}
+.Meal-container{
+    position: absolute;
+    margin-left: 25%;
+background-color: #F4BC77;
+height: 700px;
+padding-top: 2%;
+
+}
+
+.gallery1{
+    display: block;
+    float: left;
+    width: 250px;
+    height: 200px;
+    padding: 10px;
+   overflow: hidden;
+   border-radius: 10%;
+}
+.gallery1:hover{
+    transform: scale(1.2,1.2);
+    transition: 0.3s;
+    z-index: 2;
+}
+#events h1{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    color: #f96000;
+    
+}
+.galleries h6{
+text-align: center;
+font-family: 'Ubuntu', sans-serif;
+}
+.galleries h2{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #fc8c03;
+}
+.testimonial h2{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 60px;
+    color: #fc8c03;
+}
+.testimonial h6{
+    text-align: center;
+font-family: 'Ubuntu', sans-serif;
+}
