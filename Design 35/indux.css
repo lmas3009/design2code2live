@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Gujarati:wght@300&display=swap');
+
+.background {
+  height: 100vh; 
+  background: url('img/bg1.jfif') repeat fixed 100%;
+  box-shadow: inset 0 0 0 2000px rgb(39 34 34 / 69%);
+  background-size: cover;
+  width: 100%;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0%;
+}
+
+img {
+  width: 100%;
+}
+
+.ul-links {
+  text-decoration: none;
+  color: rgb(202 202 202);
+  /* float: right; */
+  margin: 17px 60px;
+  font-size: 22px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.ul-links:hover {
+  color: #fff;
+}
+
+.ul-class {
+  list-style: none;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 1109px;
+}
+
+.grid {
+  display: grid;
+}
+
+.home {
+  margin-top: 12rem;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.home-desc {
+  font-size: 1.52rem;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffb90d;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.home-heading {
+  /* font-family: 'Abril Fatface', cursive; */
+  /* font-family: 'Noto Serif Gujarati', serif; */
+  font-size: 6rem;
+  color: #ffb90d;
+  font-weight: 100;
+}
+
+.design-card {
+  position: relative;
+  /* height: 200px;
+  width: 257px;
+  margin: 40px; */
+}
+
+.design-card-desc {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(0deg, #2e2c2c, #0000004f);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .5s ease-in-out;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 1.5rem;
+}
+
+.design-card:hover .design-card-desc {
+  visibility: visible;
+  opacity: 1;
+}
+
+.design-img {
+  display: block;
+  transition: .3s ease-in-out;
+}
+
+.design-card-area {
+  gap: 3rem;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #f7e4b5;
+  padding: 1rem;
+  margin: 2rem 0rem;
+  box-shadow: 0px 0px 15px 5px #00000070;
+}
+
+.design-heading {
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 3rem;
+  margin: 3rem 0rem;
+}
+
+.design-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.design-button {
+  background-color: #fff;
+  border: 3.5px solid #ffb90d;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.design-button:hover {
+  background-color: #ffb90d;
+  color: #fff;
+  border: 3.5px solid #fff;
+}
+
+.bg {
+  background: url(./img/bg4.jpg);
+  background-position: bottom;
+}
+
+.about-container {
+  padding: 4rem;
+  gap: 5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.square {
+  position: relative;
+  height: 400px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.square span:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate 6s linear infinite;
+}
+
+.square:hover span:nth-child(1) {
+  border: none;
+  background: #ffb90d;
+}
+
+.square span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate 4s linear infinite;
+}
+
+.square:hover span:nth-child(2) {
+  border: none;
+  background: #ffb90d;
+}
+
+.square span:nth-child(3) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid white;
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate2 10s linear infinite;
+}
+
+.square:hover span:nth-child(3) {
+  border: none;
+  background: #ffb90d;
+  /* background: rgba(255, 0, 76, 0.64); */
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.content {
+  position: relative;
+  padding: 30px 30px;
+  color: #fff;
+  text-align: center;
+  transition: 0.5s;
+  z-index: 1000;
+}
+
+.content a {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  padding: 6px 18px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 73% 27% 44% 56% / 49% 44% 56% 51%;
+}
+
+.content a:hover {
+  background: #fff;
+  color: #333;
+}
+
+.app-container {
+  gap: 0;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.input-form {
+  background-color: #f7e4b5;
+  padding: 1rem;
+  position: relative;
+  box-sizing: border-box;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0rem;
+  box-sizing: border-box;
+  font-family: 'Noto Serif Gujarati', serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  height: 22%;
+  box-sizing: border-box;
+  font-family: 'Noto Serif Gujarati', serif;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0.2rem auto;
+  background: #fff;
+  border: 1px solid #ffb90d;
+}
+
+.footer {
+  background-color: #f7e4b5;
+  padding: 2rem 7rem;
+}
+
+.footer-loc {
+  gap: 5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-card {
+  text-align: center;
+  font-family: 'Noto Serif Gujarati', serif;
+}
+
+.footer-social {
+  gap: 1rem;
+  grid-template-columns: repeat(5, 1fr);
+  width: fit-content;
+  text-align: center;
+  justify-self: center;
+  margin: 3rem auto;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
