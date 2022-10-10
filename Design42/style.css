@@ -1,0 +1,87 @@
+body {
+    padding-top: 0px;
+    margin-top: 0px;
+    display: block;
+    height: 100vh;
+  }
+  
+  #main {
+    padding: 60px 45px 20px 360px;
+    background-color: #f1f1f1;
+    margin: 0px;
+    border-style: solid;
+    border-width: 0px 80px 0px 0px;
+    border-color: black;
+  } 
+  .line{
+    height: 10px;
+}
+    .nav{
+    border-radius: 15px;
+    background-color: rgb(5, 95, 5);
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+  
+  header {
+      font-family: Playfair Display;
+      font-size: 35px;
+      color: #1d519c;
+      display: block;
+    }
+    
+    p {
+        font-family: Raleway;
+        margin: 20px;
+    }
+    
+    .sidenav {
+      height: 100%; 
+      width: 325px; 
+      position: fixed; 
+      z-index: 1; 
+      top: 0; 
+      left: 0;
+      background-color: #ffcd29; 
+      background-image: url(./leaves.jpg);
+      overflow-x: hidden; 
+      padding-top: 40px; 
+      text-align: left;
+    }
+    
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        font-family: Oswald;
+    }
+    .sidenav header {
+      padding: 6px 8px 6px 8px;
+      text-decoration: none;
+      font-size: 50px;
+      color: rgb(144, 241, 163);
+      display: block;
+      font-family: Playfair Display;
+      text-align:center;
+     }
+    
+    .sidenav a:hover {
+      color: #fa5700;
+    }
+    
+  li {
+    font-family: Raleway;
+  }
+  
+  h3 {
+    font-family: Oswald;
+    margin: 30px -15px -20px -10px;
+    text-align: right;
+  }
+  @media (max-width: 600px) {
+      navbar {
+          position: fixed;
+      }
+  } 
