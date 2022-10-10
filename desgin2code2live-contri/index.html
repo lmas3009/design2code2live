@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design2Code2Live</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="w-full h-full bg-black"
+    style="font-family: 'Poppins', sans-serif"
+  >
+    <div className="w-full h-full relative overflow-hidden text-white bg-black">
+      <video
+        autoplay="autoplay"
+        loop="loop"
+        muted
+        id="video-id"
+        style="height: auto; width: auto"
+      >
+        {/* TODO make it accept multiple media types */}
+        <source
+          src="https://vod-progressive.akamaized.net/exp=1665425711~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F328%2F19%2F476642450%2F2128024166.mp4~hmac=873d9c35de5fa50adbaa4dd24849db5d7cf49cdc58fbcd4b45b90d48e98e02b4/vimeo-prod-skyfire-std-us/01/328/19/476642450/2128024166.mp4"
+          type="video/mp4"
+        />
+        Your browser does not support the video tag.
+      </video>
+      <div
+        class="w-full flex flex-col items-center justify-center absolute top-0"
+      >
+        <p class="text-4xl mt-6 text-white">Design2Code2Live</p>
+        <p
+          style="font-family: 'Poppins', sans-serif"
+          class="text-2xl text-white mt-6 mb-10"
+        >
+          Collaborators
+        </p>
+        <div
+          class="w-full flex flex-wrap items-center justify-center gap-10"
+          id="usergrid"
+        ></div>
+        <div class="mt-20 text-white">
+          Thanks for all the collaboratos who worked on this repo for this
+          hackathon
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
