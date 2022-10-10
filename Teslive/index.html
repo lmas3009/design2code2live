@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teslive</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div
+      class="w-full h-[100vh] flex flex-col md:flex-row items-center justify-between"
+      style="font-family: 'Poppins', sans-serif;"
+    >
+      <div class="w-full md:w-[70rem]">
+        <img src="image1.png" alt="img" style="height: 100vh; width: 700px" />
+      </div>
+      <div
+        class="w-full h-full flex flex-col gap-10 items-center justify-evenly"
+      >
+        <div class="flex gap-10">
+          <div class="flex flex-col items-center justify-center">
+            <p>Hrs</p>
+            <div class="mt-5 flex items-center justify-center">
+              <div
+                class="bg-pink-300 h-14 w-14 flex items-center justify-center rounded animate-spin absolute text-center"
+                id="flip2"
+              ></div>
+              <p id="hrs" class="text-3xl relative text-center">Hrs</p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center justify-center">
+            <p>Mins</p>
+            <div class="mt-5 flex items-center justify-center">
+              <div
+                class="bg-pink-300 h-14 w-14 flex items-center justify-center rounded animate-spin absolute text-center"
+                id="flip3"
+              ></div>
+              <p id="mins" class="text-3xl relative w-full text-center">Mins</p>
+            </div>
+          </div>
+          <div class="flex flex-col items-center justify-center">
+            <p>Secs</p>
+            <div class="mt-5 flex items-center justify-center">
+              <div
+                class="bg-pink-300 h-14 w-14 flex items-center justify-center animate-spin absolute text-center"
+                id="flip"
+              ></div>
+              <p id="secs" class="text-3xl relative w-full text-center">Secs</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col items-center justify-center">
+          <p class="text-2xl" style="font-family: 'Abel', sans-serif">
+            Teslive
+          </p>
+          <p class="text-7xl" style="font-family: 'Abel', sans-serif">
+            Coming Soon
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
