@@ -1,0 +1,109 @@
+
+.bg-container {
+    background-color: #1b1b1b;
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.main-heading {
+    color: white;
+    font-size: 22px;
+    font-family: "Bree Serif";
+}
+
+.apj-card {
+    background-color: #e6f6ff;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.small-card {
+    padding: 10px;
+}
+
+.image-apj {
+    height: 171px;
+    width: 125px;
+}
+
+.apj-heading {
+    color: #183b56;
+    font-family: "Bree Serif";
+    font-size: 16px;
+}
+
+.apj-first-deatils {
+    font-family: "Bree Serif";
+    color: #06070d;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.apj-second-deatils {
+    font-family: "Bree Serif";
+    color: #9aa5b1;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.second-main-heading {
+    color: white;
+    font-size: 18px;
+    font-family: "Bree Serif";
+}
+
+.other-card {
+    background-color: #1b1b1b;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.image-other {
+    height: 145px;
+    width: 80px;
+}
+
+.other-heading {
+    color: white;
+    font-family: "Bree Serif";
+    font-size: 16px;
+}
+
+.other-first-deatils {
+    font-family: "Bree Serif";
+    color: #9aa5b1;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.other-second-deatils {
+    font-family: "Bree Serif";
+    color: #e4e7eb;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.sub-images {
+    height: 255px;
+    width: 175px;
+}
+
+.sub-main-card {
+    text-align: center;
+    padding: 10px;
+}
+
+.content {
+    font-family: "Roboto";
+    color: #9aa5b1;
+    font-size: 12px;
+}
+
+.button {
+    font-family: "Roboto";
+    font-size: 11px;
+    font-weight: 500;
+    margin: 3px;
+}
