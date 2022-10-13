@@ -1,0 +1,124 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	background: #ededed;
+}
+input, button {
+	border: none;
+	outline: none;
+	background: none;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+.cont {
+	overflow: hidden;
+	position: relative;
+	width: 900px;
+	height: 550px;
+	margin: 0 auto 100px;
+	background: #fff;
+}
+.form {
+	position: relative;
+	width: 400px;
+	height: 100%;
+    overflow: hidden;
+	padding: 40px 20px 0;
+}
+.sub-cont {
+	overflow: hidden;
+	position: absolute;
+	left: 500px;
+	top: 0;
+	width: 500px;
+    right: 300px;
+	height: 100%;
+	/* padding-left: 260px; */
+	background: #fff;
+	/* transition: transform 1.2s ease-in-out; */
+}
+.cont.s--signup .sub-cont {
+	transform: translate3d(-640px, 0, 0);
+}
+button {
+	display: block;
+	margin: 0 auto;
+	width: 330px;
+	height: 36px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 15px;
+	cursor: pointer;
+}
+/* .img {
+	overflow: hidden;
+	z-index: 2;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 500px;
+	height: 100%;
+	padding-top: 360px;
+} */
+.img {
+	content: '';
+	position: absolute;
+	top: 0;
+    left: 0;
+    right: 0;
+	width: 500px;
+	height: 550px;
+	background-image: url("image 2.png");
+	background-position-x: 50%;
+    background-position-y: 80%;
+}
+p{
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+}
+h2 {
+	width: 100%;
+	font-size: 26px;
+	text-align: center;
+}
+label {
+	display: block;
+	width: 330px;
+	margin: 25px auto 0;
+    border-radius: 5px;
+	text-align: left;
+}
+label span {
+	font-size: 17px;
+	color: #000;
+    text-align: left;
+    border-radius: 5px;
+}
+input {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 0.5px solid #ccc;
+  box-sizing: border-box;
+  
+}
+.forgot-pass {
+    float: right;
+    padding-top: 10px;
+    padding-left: 60%;
+    font-size: small;
+}
+.submit {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	background: rgb(154, 56, 20);
+}
+
+
+
