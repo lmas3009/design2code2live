@@ -1,0 +1,30 @@
+.navbar-collapse {
+    color: #000 !important;
+}
+.navbar a{
+    color: black !important;
+}
+.register-container{
+    min-height: calc(100vh - 212px);
+    max-width: 1500px;
+    padding: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+.register-container h1{
+ text-align: center;
+ margin-bottom: 50px;
+ text-shadow: 2px 2px gray;
+}
+
+.focus:focus{
+    border: 2px solid black;
+}
+
+#submit-btn {
+    box-shadow: 5px 3px transparent;
+    margin: 3px;
+}
+
+#submit-btn:hover{
+    box-shadow: 5px 3px gray;
+}
