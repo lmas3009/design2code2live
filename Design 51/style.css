@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+  }
+  
+  #hero {
+    height: 100vh;
+    width: auto;
+    background: url("./images/hero-background.png") no-repeat center center;
+    background-size: cover;
+  }
+  
+  .header {
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .semi-bold {
+    font-weight: 500;
+  }
+  
+  .button-header {
+    background-color: #000;
+    padding: 0.4rem 2.5rem;
+    border-radius: 10px;
+    color: #fff;
+  }
