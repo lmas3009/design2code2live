@@ -1,0 +1,74 @@
+body {
+  padding-top: 7vh;
+  padding-left: 3.5vw;
+}
+header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: large;
+}
+#lower {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+#mid {
+  display: flex;
+}
+#card {
+  position: relative;
+  bottom: 25px;
+}
+#rewads {
+  font-family: bungee shade, sans-serif;
+  /* font-weight: 600; */
+  letter-spacing: 5px;
+  /* font-size: larger; */
+}
+button {
+  margin-top: 15px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  padding: 4px;
+  width: 100px;
+}
+img {
+  width: 80%;
+  position: relative;
+  bottom: 85px;
+  /* right: 0px; */
+}
+h1 {
+  /* padding: 0px;
+    border: 0px; */
+  margin: 0px;
+}
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  /* padding: 0px; */
+  /* border: 0px; */
+  margin: 0px;
+  font-size: 10px;
+}
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+}
+@media screen and (max-width: 850px) {
+  img {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 850px) {
+  img {
+    width: 50%;
+    bottom: 2px;
+  }
+}
