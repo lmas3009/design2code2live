@@ -1,0 +1,33 @@
+body{
+    padding-top:5% ;
+    background-color: #F0F5FF;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100%
+}
+h1,h2{
+    margin: 2px;
+    font-family: "poppins",sans-serif;
+    font-weight: 500;
+    font-size:50px ;
+}
+h2{
+    font-family: 'McLaren', cursive;
+    font-weight: 550;
+}
+h3{
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 30px;
+}
+@media screen and (max-width: 850px) {
+    h1,h2,h3{
+         font-size:medium;
+    }
+}
