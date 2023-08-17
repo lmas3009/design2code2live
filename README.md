@@ -6,7 +6,8 @@ Can you code? If i provide you a design.
 
 Build the code from the design and push it to the repository. You can see your design live from 
 `https://aravindkumarv.xyz/design2code2live/{DesignName}`
-"**Grab your design fast. We have only 20 designs**"
+
+github link: https://github.com/lmas3009/design2code2live
 
 ## Contribute through Hacktoberfest 2023 
 HACKTOBERFEST IS FOR EVERYONE. WHETHER IT’S YOUR FIRST TIME—OR YOUR NINTH—IT’S ALMOST TIME TO HACK OUT FOUR PRISTINE PULL/MERGE REQUESTS AND COMPLETE YOUR MISSION FOR OPEN SOURCE  
