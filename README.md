@@ -1,3 +1,5 @@
+![image](https://github.com/lmas3009/design2code2live/assets/60876387/00e44636-c2ed-4921-bef3-55caa16ad191)
+
 # design2code2live
 
 Welcome all developers to design2code2live.
@@ -14,9 +16,8 @@ HACKTOBERFEST IS FOR EVERYONE. WHETHER IT’S YOUR FIRST TIME—OR YOUR NINTH—
 
 Link 👉https://hacktoberfest.com/
 
-COMING SOON ***_HACKTOBERFEST 2023_**
 
-JOIN THE DISCORD - https://discord.gg/yfhgnX4S and get notified when the event starts and information related to designs.
+JOIN THE DISCORD - https://discord.com/invite/RfMEVfVGJk and get notified when the event starts and information related to designs.
 
 
 ## Contribution Guidelines
