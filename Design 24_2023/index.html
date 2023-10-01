@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design 24_2023 - Ryan Maddock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap" rel="stylesheet">
+<body>
+    <main class="flex h-full pb-10 px-12">
+        <div class="justify-end items-start flex flex-col h-full w-[550px]">
+            <div class="h-[200px] w-[115px] rounded-full bg-clip-content bg-logo bg-[length:180px_210px] bg-[center_left_-35px]"></div>
+            <h2 class="text-2xl my-5">
+                Welcome to UITech
+            </h2>
+            <h1 class="text-5xl/[90px] font-bold">Improve your UI Skills with UITech</h1>
+            <h3 class="w">Quas libero non id non. Magni unde aperiam rem maiores eligendi se rerum. Ut eligendi veniam voluptates.</h3>
+            <a class="bg-black text-white text-bold flex justify-center rounded-xl px-12 py-2 mt-5">Learn Skills</a>
+        </div>
+        <div class="flex grow justify-end items-end flex-col h-full">
+            <div class="flex gap-5">
+                <div class="flex items-center flex-col gap-2">
+                    <img class="h-[150px] w-[150px] rounded-full" src="./images/founder.jpeg"/>
+                    <div class="text-2xl">Founder</div>
+                </div>
+                <div class="flex items-center flex-col gap-2">
+                    <img class="h-[150px] w-[150px] rounded-full" src="./images/cofounder.jpeg" />
+                    <div class="text-2xl">Co-Founder</div>
+                </div>                
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+                backgroundImage: {
+                    'logo': "url('./images/logo.png')"
+                }
+            }
+          }
+        }
+      </script>
+    
+</body>
+</html>
