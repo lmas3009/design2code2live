@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+*{
+    background-image: url('1climate.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+div {
+    font-family: 'PT Sans Caption', sans-serif;
+    color: white; 
+    position: absolute;
+    bottom: 100px;
+    left: 70px;
+}
+
+.heading {
+    font-size: 3.5rem; 
+    font-weight: 100;
+}
+.para {
+    margin-top: -40px; 
+    font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    *{
+        height: auto;
+    }
+}
