@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0 0;
+    padding: 0;
+  }
+
+.image{
+    height: 100vh;
+    width: 100%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+.para{
+    position: absolute;
+    color: #945778;
+    bottom: 0;
+    width: 500px;
+}
+.para p{
+    font-size: 3rem;
+    margin-left: 2rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: .6rem;
+}
+.para .subpara{
+    font-size: large;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+@media only screen and (max-width: 400px) {
+    body{
+        height: 100vh;
+        overflow: hidden;
+    }
+    .image{
+        width: 500px;
+    }
+    .background{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .para{
+        width: 250px;
+    }
+    .para p{
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+    }
+    .para .subpara{
+        font-size: 8px;
+    }
+    
+  }
