@@ -43,3 +43,12 @@ p {
   border: 4px solid white;
   border-radius: 1rem;
 }
+
+@media screen and (max-width: 480px) {
+  .img1,
+  .img2,
+  .img3 {
+    margin: auto;
+    width: auto;
+  }
+}
