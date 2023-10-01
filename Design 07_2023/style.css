@@ -1,0 +1,15 @@
+*{
+    background-image: url('image.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.text{
+    font-family: 'PT Sans Caption', sans-serif;
+    text-align: center;
+}
+
+#p-tag{
+    margin-top: -30px;
+}
