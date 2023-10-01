@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'AR One Sans';
+    color: white;
+    filter: grayscale(100);
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    background: url(birdy.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.text{
+padding: 5rem 7rem;
+}
+.text h2{
+    font-size: 39px;
+    font-stretch: extra-expanded;
+    letter-spacing: 5px;
+}
+.text p{
+    font-size: 10px;
+}
