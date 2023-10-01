@@ -1,0 +1,33 @@
+*{
+    background-color: black;
+}
+
+.image-set{
+    width: 478px;
+    height: 650px;
+    object-fit: cover;
+}
+
+.text{
+    color: white;
+    margin-top: 35px;
+    margin-left: 100px;
+    font-family: 'PT Sans Caption', sans-serif;
+    position: absolute;
+}
+
+#image-div{
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+}
+
+#header{
+    font-size: 3rem;
+}
+
+#lower{
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-top: -40px;
+}
