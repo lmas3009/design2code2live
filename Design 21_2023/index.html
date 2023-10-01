@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Design 21</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+
+                    },
+                    backgroundImage: {
+                        'bg': "url('assets/leave3.jpg')",
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+        <div class="border flex flex-row h-[50vh] w-full border-b-4 border-white">
+            <img class="object-cover w-1/2 border-r-4 border-white-300"
+                src="assets/leave1.jpg"
+                alt="">
+            <img class="object-cover w-1/2"
+                src="assets/leave2.jpg"
+                alt="">
+        </div>
+        <div class="bg-bg h-[50vh] bg-no-repeat bg-cover w-full text-white flex flex-col justify-center items-start md:items-end pl-6 md:pr-10">
+            <h2 class="text-3xl md:text-7xl mb-2 md:mt-40">Exploring the world of leaves</h2>
+            <p class="text-xl md:text-2xl">Nurturers of life and Artistry</p>
+        </div>
+</body>
+
+</html>
