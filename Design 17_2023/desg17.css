@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.background-container {
+    height: 100%;
+    background-image: url('mountain.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: rgb(17, 7, 7); /* Text color on the background */
+    text-align: center;
+    padding: 20px; /* Optional: Add padding for content */
+}
+
+.background-container p {
+    font-size: 24px; /* Optional: Adjust text size */
+}
+
+.card {
+    position: absolute;
+    margin: 20px 0px 0px 25px;
+    bottom: 0;
+    left: 0;
+    background-color: transparent; /* Background color of the card */
+    padding: 20px;
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
+    
+}
+
+.card-content {
+    padding: 0px;
+}
+#p1{
+    font-size: 25px;
+}
+
+p {
+    margin: 0; /* Remove default margin for the paragraph */
+    color: rgb(151, 196, 236); /* Text color */
+    font-size: 4em;
+}
+/* @media (max-width: 768px) {
+    .card {
+        position: static; 
+        margin: 20px;
+        width: 90%; 
+        left: auto;
+        right: auto;
+    }
+
+    p {
+        font-size: 2em;
+    }
+} */
