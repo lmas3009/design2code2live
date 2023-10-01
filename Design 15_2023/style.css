@@ -9,16 +9,23 @@ body{
   background-image: url(bgg.jpeg);
   background-size: cover;
   font-family: 'Poppins', sans-serif;
+  font-family: 'PT Sans Caption', sans-serif;
 }
 .container h3 , p{
   color: white;
+
 }
+
+  
+
 .container h3{
 margin: 2rem 0 0 2rem;
+font-size: 2rem;
 }
 
 .container p{
- margin: 0 0 2rem 2rem;
+ margin: 0 0 1rem 1rem;
+ padding: 1rem;
 }
 .img-1{
   margin-left: 1rem;
