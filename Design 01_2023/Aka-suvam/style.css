@@ -1,0 +1,131 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+
+body {
+    background-color: black;
+    font-family: 'AR One Sans', sans-serif;
+}
+main {
+    width:100%;
+   height: 100%;
+   
+}
+nav{
+    color:white;
+    padding : 1.5vw 1.5vw;
+    height: 60px;
+    font-size: 1.5vw;
+    
+}
+.content{
+    width:100%;
+ height:calc(100%-100px);
+    display: flex;
+    justify-content: space-between;
+    
+    
+   
+
+}
+.left{
+    width:70%;
+    height:100%;
+   /* border: 2px solid white;*/
+    
+}
+
+.left h1 {
+    color:white;
+    font-size: 4vw;
+    line-height: 7vw;
+    font-weight: lighter;
+    padding-left: 4vw;
+   
+
+    
+}
+.space{
+    
+    padding-top: 3vw;
+    
+}
+
+  .left  p {
+    color:white;
+    padding-left: 4.3vw;
+    line-height: 2vw;
+    width:80%;
+    text-align: justify;
+}
+
+.left button {
+    /*color: #D9D9D9;*/
+    padding: 0.3vw 1.4vw;
+   
+    border: none;
+    border-radius: 0.3vw;
+    font-size: 1.3vw;
+    margin-left: 6vw;
+    margin-top: 3vw;
+    text-align: justify;
+    
+    
+}
+.left button a {
+    text-decoration: none;
+    color: black;
+    
+   
+}
+
+.left button i {
+    font-size: 1.7vw;
+}
+.left button img {
+    display: inline-block;
+    height: 25px;
+    width: 40px;
+   /* margin-top: 0.4vw;*/
+   
+}
+.changes{
+    margin-top: 1vw;
+}
+
+.right { 
+    width:30%;
+    height: 100%;
+   /* border: 2px solid white;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*gap:1vw;*/
+    /*margin-left: 30vw;*/
+   
+    
+    
+   
+}
+
+.right img {
+    height:200px;
+    width:40%;
+    /*margin: 3px;*/
+    margin-right: 15px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 1vw;
+    ;
+    
+     
+   
+    
+}
