@@ -23,17 +23,18 @@ body, html {
 
 .card {
     position: absolute;
-    margin: 20px 0px 0px 25px;
+    margin: 20px 0px 0px 65px;
     bottom: 0;
     left: 0;
     background-color: transparent; /* Background color of the card */
     padding: 20px;
+
     /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); */
     
 }
-
 .card-content {
     padding: 0px;
+    
 }
 #p1{
     font-size: 25px;
@@ -41,7 +42,7 @@ body, html {
 
 p {
     margin: 0; /* Remove default margin for the paragraph */
-    color: rgb(151, 196, 236); /* Text color */
+    color: white; /* Text color */
     font-size: 4em;
 }
 /* @media (max-width: 768px) {
