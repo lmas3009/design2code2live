@@ -1,0 +1,10 @@
+
+html {
+    font-size: 18px;
+}
+body {
+    background: url(./images/bg.png) top -310px right -225px no-repeat;
+    background-size: 750px;
+    height: 100vh;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}

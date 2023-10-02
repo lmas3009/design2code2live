@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-div{
+    background-color: black;
+    padding: 10px 10px;
+}
+
+.nav-div a{
+    color: #aaecff;
+    font-family: 'Croissant One', cursive;
+    font-size: 18px;
+}
+
+.hero-div1{
+    line-height: 30px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+    width: auto;
+    height: 400px;
+}
+.right-hero-div img{
+    width:auto;
+    height: 400px;
+    margin-top: 120px;
+    border-radius: 80px 80px 0px 0px;
+}
+.hero-div2-left{
+    width: 50%;
+    padding: 100px;
+    padding-top: 30px;
+    line-height: 20px;
+    font-size: 18px;
+}
+.btn img{
+    width: auto;
+    height: 25px;
+}
+.btn-div{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.btn span{
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 869px) {
+    .hero-div1{
+        padding: 10px 40px;
+    }
+    .right-hero-div img{
+        height: 300px;
+        margin-top: 0px;
+    }
+    .hero-div2-left{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 643px) {
+    .hero-div2-left{
+        width: 90%;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 558px) {
+    .hero-div1{
+        font-size: 20px;
+    }
+    .right-hero-div img{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .hero-div1{
+        font-size: 25px;
+    }
+    .right-hero-div img{
+        display: none;
+    }
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400&family=Public+Sans&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero__thumb {
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;    
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.upper-text {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+h1 {
+    font-size: 5vw;
+    text-align: left;
+    padding: 5rem 0 0 5rem;
+    letter-spacing: 0.75rem;
+}
+
+p{
+    font-size: 1.5vw;
+    text-align: left;
+    font-weight: 200;
+    letter-spacing: 4px;
+    padding: 2rem 0 0 5rem; 
+}
+  
+
+h3{
+    color: white;
+    font-size: 2vw;
+    position: absolute;
+    letter-spacing: 5px;
+    font-weight: 300;
+    top: 60rem;
+    left: 5rem;
+    text-align: left;
+}
+
+.hero-btn{
+    position: relative;
+    left: 5rem;
+    top: 68.5rem;
+    height: fit-content;
+    background-color: White;
+    border: none;
+    color: black;
+    padding: 20px 7rem 20px 7rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 2.5rem;
+    border-radius: 1.5rem;
+}
