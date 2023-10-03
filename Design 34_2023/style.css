@@ -1,0 +1,121 @@
+* { 
+	box-sizing: border-box;
+}
+html, body {
+	min-height: 100%;
+	background: #fff;
+	color: #000;
+    font-size: 100%;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+    line-height: 0%;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+hr {
+    position: relative;
+    border: none;
+    height: 18px;
+    width: 50px;
+    right: 5px;
+    background: black;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+.hr1 {
+    margin-right: 25px;
+    width: 180px;
+}
+
+.hr2 {
+    margin-right: 25px;
+    width: 120px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    padding: 5px;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: rgb(21, 21, 21);
+    color: #fff;
+    border: #000;
+    border-radius: 40px;
+    padding: 20px 65px;
+    font-size: 26px;
+    font-weight: 200;
+}
+
+.img1 {
+    border-radius: 190px;
+    height: 900px;
+    position:fixed;
+    top: 40px;
+    left: -850px;
+    right: 0%;
+}
+
+.img2 {
+    border-radius: 190px;
+    height: 900px;
+    position:fixed;
+    top: 40px;
+    right: -850px;
+    
+}
+
+@media screen and (max-width: 968px) {
+    .img1 {
+        left: -950px;
+    }
+    
+    .img2 {
+        right: -950px;
+        
+    }
+    button {
+        padding: 15px 45px; /* Decrease padding for smaller screens */
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h5 {
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .img1 {
+        left: -1050px;
+    }
+    
+    .img2 {
+        right: -1050px;
+    }
+    button {
+        padding: 8px 25px; 
+        font-size: 18px;
+    }
+}
