@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background: url("./sea-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .container{
+    /* border: 1px solid red; */
+    color: #FBFBFE;
+    padding: 2rem;
+    font-family: 'Poppins','sans-serif';
+  }
+
+  .container h1{
+    font-size: 2.8rem;
+  }
+
+  .container p{
+    font-size: 1.4rem;
+    margin: 0.4rem;
+  }
