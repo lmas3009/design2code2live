@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3"
+  },
+  "name": "design-04_2023",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+ 
+  "scripts": {
+    "build": "npx tailwindcss -i ./styles.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
