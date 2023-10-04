@@ -1,0 +1,335 @@
+/*All the css will be shown here*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*Creating of global variables*/
+:root{
+	--primary: rgb(11,89,218);
+}
+
+/*Importing of google fonts*/
+@font-face{
+	font-family: Mulish;
+	src: url('../fonts/fonts/Mulish-Medium.ttf');
+}
+
+@font-face{
+  font-family: Source_sans_pro;
+  src: url('../fonts/fonts/SourceSansPro-ExtraLight.ttf');
+}
+
+body{
+  font-family: 'Mulish';
+}
+
+/*Creating of class that will be helpful for us in global level*/
+.centered{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.section_heading{
+  color: var(--primary);
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.section_sub_heading h2{
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: -1px;
+  color: #232323;
+  text-transform: capitalize;
+}
+
+.section_sub_heading{
+	position: relative;
+}
+
+.section_sub_heading::before{
+  content: '';
+  width: 100px;
+  height: 6px;
+  background: rgb(174,198,239);
+  position: absolute;
+  bottom: -29px;
+  border-radius: 10%;
+}
+
+.section_sub_heading::after{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: var(--primary);
+  border-radius: 50%;
+  bottom: -31px;
+  left: 0px;
+  animation-name: sub_heading_move;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes  sub_heading_move{
+	0%{left: 0}
+	100%{left: 90px}
+}
+
+/*Styling of header section*/
+
+.header{
+	width: 100%;
+	min-height: 472px;
+	height: auto;
+	background-image: url('../images/header-bg.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.header_content{
+	flex-direction: column;
+  width: 100%;
+  padding-left: 5%;
+  min-height: 336px;
+  height: auto;
+  color: #fff;
+}
+
+.header_content p{
+	font-size: 23px;
+	line-height: 1.3;
+	text-align: left;
+}
+
+.header_content h1{
+  font-size: 7vw;
+  text-transform: uppercase;
+}
+
+.header_btn
+{
+  display: inline-block;
+  margin-top: 50px;
+  width: 150px;
+  cursor: pointer;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 3px;
+  height: 50px;
+  border-radius: 3px;
+  outline: none;
+  margin-left: 10px;
+  border: 1px solid rgba(255,255,255,0.8);
+  background: transparent;
+  color: white;
+}
+
+.header_btn_1{
+  background: var(--primary);
+  border: 1px solid var(--primary);
+}
+
+.header_btn_1:hover
+{
+	background: white;
+  border: 1px solid white;
+ 	color: var(--primary);
+}
+
+.header_btn_2:hover{
+background: white;
+border: 1px solid white;
+	color: var(--primary);
+}
+
+@media screen and (max-width:336px){
+	.header_content h1{
+		font-size: 36px;
+	}
+}
+
+/*Styling of feature sectino*/
+.feature{
+  width: 100%;
+  min-height: 400px;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+.feature_card{
+  width: 231px;
+  height: 250px;
+  margin: 10px;
+  padding: 2px;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 5px 8px 20px 0 grey;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  position: relative;
+}
+
+.feature_card1:hover .feature_card{
+	transform: rotateY(180deg);
+}
+
+.f_c_icon{
+  width: 90px;
+  height: 90px;
+  background: var(--primary);
+  position: absolute;
+  top: 31px;
+  left: 66.5px;
+  margin: 0 auto;
+  border-radius: 33% 66% 70% 30%/49% 62% 38% 51%;
+}
+
+.f_c_heading{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 58px;
+  color: #232323;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.f_c_i_icon{
+	color: white;	
+  font-size: 2rem;
+  -webkit-text-stroke: 1.4px var(--primary);
+}
+
+.f_c_front{
+	position: absolute;
+	backface-visibility: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.f_c_back{
+	flex-direction: column;
+	backface-visibility: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transform: rotateY(180deg);
+	background: white;
+}
+
+.f_c_back p{
+  font-size: 17px;
+  position: absolute;
+  bottom: 74px;
+  color: #616161;
+}
+
+.f_c_back h1{
+  font-size: 21px;
+  position: absolute;
+  top: 54px;
+}
+
+@media screen and (max-width:502px){
+	.feature_card{
+		width: 90vw;
+	}
+
+	.f_c_icon
+	{
+		left: 35vw;
+	}
+}
+
+/*Styling of About us section*/
+.about_us{
+	width: 100%;
+	height: 713px;
+}
+
+.about_us_content{
+	flex-wrap: wrap;
+}
+
+.about_us_box{
+	width: 483px;
+	height: 700px;
+	margin: 10px;
+}
+
+.about_us_right img{
+	width: 479px;
+}
+
+.aul_content{
+  width: 100%;
+  height: 90%;
+  position: relative;
+}
+
+.aul_content_div{
+	margin-top: 14px;
+}
+
+.aulc_para{
+  color: #616161;
+  line-height: 1.5;
+}
+
+.aulc_para .para{
+  position: absolute;
+  top: 200px;
+  font-size: 22px;
+}
+
+.aulc_para_content{
+  position: absolute;
+  top: 323px;
+  width: 432px;
+  right: 0;
+  height: 307px;
+}
+
+.aul_para_btn{
+  background: var(--primary);
+  font-family: Source_sans_pro;
+  font-size: 16px;
+  text-transform: capitalize;
+  border: 1px solid var(--primary);
+  padding: 1px;
+  position: absolute;
+  bottom: 55px;
+  width: 150px;
+  height: 45px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.aul_para_btn:hover{
+  background-color: transparent;
+  color: #616161;
+}
+
+/*Styling of services section*/
+.services{
+  width: 100%;
+  background: rgb(239,242,247);
+  height: 1360px;
+  position: relative;
+}
+
+.services_heading{
+  text-align: center;
+}
+
