@@ -1,0 +1,95 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    position: relative;
+    width: 100%; 
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container img {
+    width: 100%; 
+    height: 100vh; 
+    object-fit: cover; 
+}
+
+.text-overlay {
+    position: absolute;
+    top: 65%;
+    right: 50%; 
+    color: black; 
+    width: 50%;
+}
+
+.tstudy{
+    margin: 0; 
+    padding: 0; 
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.upgarde {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    font-size: 2.6rem;
+    font-weight: 600;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.hr1 {
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 125px;
+    height: 12px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: #e46765;
+}
+
+.hr2 {
+    margin-right: 25px;
+    width: 90px;
+    height: 12px;
+    margin-top: 15px;
+    background-color: #e46765;
+    border-radius: 20px;
+}
+
+
+.text-overlay button{
+    border-radius: 20px;
+    background-color: #e46765;
+    color: white;
+    width: 160px;
+    height: 45px;
+    font-size: 1.3rem;
+    margin-right: 30px;
+    border-color: transparent;
+}
+
+.last-part{
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.last{
+    font-weight: 600;
+    font-size: x-large;
+}
