@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #fefae0;
+    overflow: hidden;
+}
+
+.topDiv{
+    display: flex;
+    height: 72vh;
+}
+.leftTopDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75vw;
+}
+.leftTopDivContent{
+    width: 30rem;
+    margin-left: 5rem;
+}
+.leftTopDivContent h1{
+    font-size: 3.2rem;
+    line-height: 4.3rem;
+}
+.leftTopDivContent p{
+    margin-bottom: 1.2rem;
+}
+#btn{
+    background-color: black;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.rightTopDiv{
+    height: 80%;
+    width: 35rem;
+border-radius: 0 0 0 180px;
+}
+.rightTopDiv img{
+    width: 30rem;
+    position: relative;
+    top: -65px;
+}
+ .imageDiv img{
+    border-radius: 0 120px 0 0;
+    width: 70%;
+}
