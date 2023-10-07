@@ -1,26 +1,27 @@
-*{
-  border: red solid;
-}
+/* *{
+  border:1px red solid;
+}  */
 
 body{
   background-color:black;
   color: white;
+  max-width:1050px;
 }
 
 .div-title{
-  margin:4rem 0 0 2rem;
+  margin:3rem 0 0 2rem;
 }
 
 h1{
   font-family: 'Inria Sans', sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 300;
   margin: 0;
 }
 
 p{
   font-family: 'Poppins', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
   margin:.5rem 0;
 }
 button{
@@ -28,7 +29,46 @@ button{
   font-size: 16px;
   background: none;
   color: white;
+  margin-top:8px;
   padding: 6px 18px;
-  border-radius: 10px;
   border:1px solid white;
+  border-radius: 8px;
+}
+.container{
+  display:flex;
+  margin-bottom: 1rem;
+}
+.div-images{
+  overflow:hidden;
+  border-radius: 20px;
+  width:170px;
+  height: 175px;
+  
+}
+
+ /* .div-images img {
+  object-position: -50px -100px;
+  object-fit: cover;
+} */
+.row-1{
+  gap: 1.25rem;
+  position:absolute;
+  left:550px;
+  top: 30px;
+}
+
+.row-2{
+  position:absolute;
+  margin: 1.5rem 0 0 8rem ;
+  gap: 2.5rem;
+  top: 200px;
+  left: 150px;
+}
+
+.row-3{
+  position:absolute;
+  margin-top: 1.5rem;
+  gap: 2.5rem;
+  top: 400px;
+  left: -20px;
 }
