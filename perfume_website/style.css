@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: white;
+}
+
+.slider-container {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+.img-sliders {
+    width: 100%;
+    height: auto;
+}
+/* img{
+    border-width: 20px;
+    border-color:  rgb(252,211,111);
+} */
