@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+
+h1 {
+    font-size: 34px;
+}
+
+p {
+    font-weight: 600;
+}
+
+.first {
+    padding: 70px 0px 0px 58px;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.num1 {
+    padding-bottom: 20px;
+}
+
+.cont {
+    padding-bottom: 21px;
+    display: flex;
+    gap: 20px;
+}
+
+.cont1,
+.cont2 {
+    text-align: center;
+}
+
+.cont3 {
+    display: inline-block;
+    text-align: center;
+}
+
+.second img {
+    position: absolute;
+    bottom: 25%;
+    right: -21%;
+    border-radius: 20%
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.third img {
+    position: absolute;
+    top: 60%;
+    left: -33%;
+    border-radius: 10%;
+}
+
+.fourth {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+}
+
+.fourth p {
+    padding-top: 10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 32px;
+    outline: none;
+    border-radius: 30px;
+}
