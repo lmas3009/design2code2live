@@ -36,6 +36,9 @@
     margin-top: 7rem;
     color: white;
 }
+.left-content:hover{
+    color: rgb(130, 239, 239);
+}
 .left-content-para{
     margin-top: 20px;
     font-size: 1.6rem;
@@ -49,6 +52,9 @@
     text-align: justify;
     flex-wrap: wrap;
     font-family: 'Josefin Sans', sans-serif;    
+}
+.left-content-data:hover{
+    color: rgb(14, 10, 126);
 }
 .connect-btn{
     display: flex;
@@ -86,6 +92,11 @@
     width: 310px;
     height: 340px;
     border-radius: 30%;
+    box-shadow: 0 4px 8px 0 rgb(39 177 106 / 43%), 0 6px 20px 0 rgb(12 54 241 / 43%);
+}
+.profile:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgb(39 177 106 / 65%), 0 6px 20px 0 rgb(12 54 241 / 65%);
 }
 
 @media screen and (max-width: 720px){
