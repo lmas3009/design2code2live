@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+.Navbar{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Croissant One', cursive;
+}
+.Navbar-img{
+    padding-left: 5%;
+    height: 60px;
+    width: 60px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.left{
+    width: 55%;
+    /* border: 2px solid red; */
+
+}
+.left-content{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    padding-left: 15%;
+    margin-top: 7rem;
+}
+.left-content-para{
+    margin-top: 20px;
+    font-size: 1.6rem;
+    font-family: 'Josefin Sans', sans-serif;   
+}
+.btn{
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding-right: 10px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    margin-bottom: 1rem;
+}
+.tools{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 5px;
+    font-family: 'Josefin Sans', sans-serif;    
+    padding-right: 10rem;
+}
+
+.right{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.profile{
+    width: 200px;
+    height: 230px;
+    border-radius: 15%;
+    box-shadow: 0 4px 8px 0 rgb(39 177 106 / 43%), 0 6px 20px 0 rgb(12 54 241 / 43%);
+}
+.profile:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgb(39 177 106 / 65%), 0 6px 20px 0 rgb(12 54 241 / 65%);
+}
+@media screen and (max-width: 1250px){
+    .tools{
+        padding-right: 2rem;
+    }
+    .btn{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .content{
+        flex-direction: column;    
+    }
+    .left{
+        width: 100%;
+    }
+    .left-content{
+        margin-top: 3rem;
+        padding-left:10%;
+        padding-right: 10%;
+    }
+    .right{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .btn{
+        width: 24%;
+    }
+    .tools{
+        padding-right: 0rem;
+    }
+}
+@media screen and (max-width: 480px){
+    .content{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .left-content{
+        margin-top: 3rem;
+        padding-left:10%;
+        padding-right: 10%;
+    }
+    .right{
+        width: 100%;
+    }
+    .btn{
+        width: 35%;
+    }
+}
