@@ -1,0 +1,14 @@
+@import url("https://fonts.cdnfonts.com/css/classical-romance");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .a-class {
+    @apply no-underline text-[0.75rem] md:text-[1rem] text-white lowercase md:uppercase tracking-widest hover:underline;
+  }
+  .logo {
+    @apply underline text-2xl text-white tracking-widest hover:no-underline;
+  }
+}

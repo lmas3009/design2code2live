@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page - Purna</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/x-icon" href="./assets/img/purna.webp" />
+    <link href="./dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-bg-clr font-romance max-h-screen overflow-y-hidden">
+    <nav
+      class="flex justify-around md:justify-between items-center p-5 px-0 container mx-auto"
+    >
+      <ul class="flex gap-6 md:gap-10">
+        <li>
+          <a href="" class="a-class">Services</a>
+        </li>
+        <li>
+          <a href="" class="a-class">Works</a>
+        </li>
+      </ul>
+      <!-- <img src="" alt="logo" /> -->
+      <h1 class="">
+        <a href="/" class="logo">PS</a>
+      </h1>
+      <ul class="flex gap-4 md:gap-10">
+        <li>
+          <a href="" class="a-class">Blog</a>
+        </li>
+        <li>
+          <a href="" class="a-class">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="flex items-center justify-center flex-col mt-4 leading-tight">
+      <span class="text-white text-2xl md:text-3xl">Hello! I'm</span>
+      <h2 class="text-white text-[2.5rem] md:text-[6rem] relative">
+        Purna Shrestha
+        <span class="w-8 h-8 md:w-10 md:h-10 absolute">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0"
+            y="0"
+            viewBox="0 0 64 64"
+            style="enable-background: new 0 0 512 512"
+            xml:space="preserve"
+            class=""
+          >
+            <g>
+              <path
+                d="M4 35c18.621 4.21 20 23 20 23s1.379-18.79 20-23c-18.621-4.21-20-23-20-23S22.621 30.79 4 35zM38 48c10.241 2.2 11 12 11 12s.759-9.8 11-12c-10.241-2.2-11-12-11-12s-.759 9.8-11 12zM31 16c10.241 2.2 11 12 11 12s.759-9.8 11-12C42.759 13.8 42 4 42 4s-.759 9.8-11 12z"
+                fill="#ffffff"
+                opacity="1"
+                data-original="#000000"
+                class=""
+              ></path>
+            </g>
+          </svg>
+        </span>
+      </h2>
+      <p class="text-white text-sm md:text-2xl font-serif">
+        Fullstack Developer based in Nepal
+      </p>
+    </div>
+
+    <div
+      class="container mx-auto flex flex-row md:flex-row items-center justify-between p-5"
+    >
+      <div class="hidden md:flex flex-col gap-16 mt-10">
+        <div class="mt-10">
+          <h3 class="uppercase text-gray-400 text-sm">Top Rated Freelancer</h3>
+          <ul
+            class="flex justify-between gap-10 list-none text-white text-2xl font-light"
+          >
+            <li>fiverr</li>
+            <li>toptal</li>
+          </ul>
+        </div>
+        <div class="text-white">
+          <div class="py-4">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <p class="text-gray-400 text-sm">200+ Clients reviews</p>
+          <h3 class="text-white text-2xl mt-4">Clutch</h3>
+        </div>
+      </div>
+      <div class="absolute left-1/2 top-1/3 -translate-x-1/2 -z-20">
+        <!-- <span class="w-80 h-80 bg-[#1F1F1F] absolute top-1/3 left-1/4"></span> -->
+        <!-- <span class="w-[24rem] h-80 bg-[#242424] absolute top-[30%] right-10 rotate-[60deg]"></span> -->
+        <img
+          src="./assets/img/purna.webp"
+          alt="Purna"
+          class="w-[28rem] scale-110 md:scale-100 2xl:scale-150 h-auto object-cover drop-shadow-2xl"
+        />
+      </div>
+
+      <div class="hidden md:flex flex-col gap-10 mt-10">
+        <div class="flex space-between gap-5">
+          <div class="flex">
+            <span class="text-white font-bold text-[2.5rem]">2</span>
+          </div>
+          <div class="flex items-center text-sm text-gray-400 uppercase">
+            <span
+              >years of <br />
+              experience</span
+            >
+          </div>
+        </div>
+
+        <div class="flex flex-col">
+          <h3 class="uppercase text-gray-400 text-sm">Featured Project</h3>
+          <a
+            href="https://purnashrestha.com.np/"
+            target="_blank"
+            class="text-white text-2xl font-light"
+            >Portfolio Project</a
+          >
+
+          <a
+            href=""
+            class="uppercase text-gray-400 text-lg underline hover:text-white hover:no-underline mt-5"
+            >Explore</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="hero"
+      style="
+        background-image: url('./assets/img/bg.png');
+        background-size: cover;
+        background-position: top center;
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+      "
+    ></div>
+  </body>
+</html>
