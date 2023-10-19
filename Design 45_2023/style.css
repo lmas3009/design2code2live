@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url(images/mikkel-bech-yjAFnkLtKY0-unsplashcropped.jpg);
+    background-size: cover;
+}
+
+.title {
+    color: white;
+    font-size: 23px;
+    padding: 30px ;
+}
+
+.bio{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+
+}
+
+.subtitle{
+    font-size: 42px;
+    color: white;
+    display: flex;
+    font-weight: 700;
+
+}
+
+.catchy{
+    color: white;
+    font-size: 18px;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+
+}
+
+.btn{
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.btn:active {
+    transform: scale(0.95);
+  }

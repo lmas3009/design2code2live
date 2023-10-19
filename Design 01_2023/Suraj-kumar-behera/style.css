@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.Navbar{
+    display: flex;
+    height: 80px;
+    background-color: black;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Croissant One', cursive;
+}
+.Navbar-img{
+    padding-left: 5%;
+    height: 60px;
+    width: 60px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(249,249,249,1) 42%, rgba(3,0,9,1) 43%);
+}
+.left{
+    width: 50%;
+    /* border: 2px solid red; */
+
+}
+.left-content{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    padding-left: 15%;
+    margin-top: 7rem;
+    color: white;
+}
+.left-content:hover{
+    color: rgb(130, 239, 239);
+}
+.left-content-para{
+    margin-top: 20px;
+    font-size: 1.6rem;
+}
+.left-content-data{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    padding-left: 15%;
+    margin-top: 6rem;
+    text-align: justify;
+    flex-wrap: wrap;
+    font-family: 'Josefin Sans', sans-serif;    
+}
+.left-content-data:hover{
+    color: rgb(14, 10, 126);
+}
+.connect-btn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    gap: 15px;
+}
+.btn{
+    width: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding-right: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.btn span{
+    padding-left: 10px;
+}
+.connect{
+    width: 40px;
+    height: 40px;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    width: 310px;
+    height: 340px;
+    border-radius: 30%;
+    box-shadow: 0 4px 8px 0 rgb(39 177 106 / 43%), 0 6px 20px 0 rgb(12 54 241 / 43%);
+}
+.profile:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgb(39 177 106 / 65%), 0 6px 20px 0 rgb(12 54 241 / 65%);
+}
+
+@media screen and (max-width: 720px){
+    .content{
+        flex-direction: column;
+        background: linear-gradient(0deg, rgba(249,249,249,1) 65%, rgba(3,0,9,1) 65%);
+        
+    }
+    .left{
+        width: 100%;
+    }
+    .left-content{
+        margin-top: 3rem;
+        padding-left:10%;
+        padding-right: 10%;
+    }
+    .left-content-data{
+        padding-left:10%;
+        padding-right: 10%;
+    }
+    .right{
+        width: 100%;
+    }
+    .profile{
+        margin-top: 2.5rem;
+        width: 200px;
+        height: 200px;
+        border-radius: 30%;
+    }
+    .btn{
+        width: 50%;
+    }
+    .connect-btn{
+        gap: 8px;
+    }
+}
+@media screen and (max-width: 480px){
+    .content{
+        flex-direction: column;
+        background: linear-gradient(0deg, rgba(249,249,249,1) 65%, rgba(3,0,9,1) 65%);
+    }
+    .left{
+        width: 100%;
+    }
+    .left-content{
+        margin-top: 3rem;
+        padding-left:10%;
+        padding-right: 10%;
+    }
+    .left-content-data{
+        padding-left:10%;
+        padding-right: 10%;
+    }
+    .right{
+        width: 100%;
+    }
+    .profile{
+        width: 200px;
+        height: 200px;
+        border-radius: 30%;
+        margin-top: 2rem;
+    }
+    .btn{
+        width: 50%;
+    }
+}
