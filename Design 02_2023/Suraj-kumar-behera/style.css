@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.Navbar{
+    display: flex;
+    height: 80px;
+    background-color: black;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Croissant One', cursive;
+}
+.Navbar-img{
+    padding-left: 5%;
+    height: 60px;
+    width: 60px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(249,249,249,1) 36%, rgba(3,0,9,1) 36%);
+}
+.left{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    width: 260px;
+    height: 280px;
+    border-radius: 15%;
+    box-shadow: 0 4px 8px 0 rgb(39 177 106 / 43%), 0 6px 20px 0 rgb(12 54 241 / 43%);
+    margin-left: 10rem;
+    margin-top: 6rem;
+}
+.profile:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgb(39 177 106 / 65%), 0 6px 20px 0 rgb(12 54 241 / 65%);
+}
+
+.right{
+    width: 40%;
+}
+.right-content{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    margin-top: 7rem;
+    color: white;
+}
+.right-content:hover{
+    color: rgb(158, 241, 218);
+}
+.right-content-para{
+    margin-top: 2rem;
+    font-size: 1.6rem;
+}
+.right-content-data{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    text-align: justify;
+    flex-wrap: wrap;
+    font-family: 'Josefin Sans', sans-serif;    
+}
+.connect-btn{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    gap: 15px;
+}
+.btn-white{
+    width: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    padding-right: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1.5px solid black;
+}
+.btn{
+    width: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding-right: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1.5px solid white;
+}
+.btn-white:active {
+    background-color: white;
+    border-color:white;
+    transform: scale(.95);
+}
+.btn:active {
+    background-color: black;
+    border-color: white;
+    transform: scale(.95);
+}
+
+@media screen and (max-width: 720px){
+    .content{
+        flex-direction: column-reverse;
+        background: linear-gradient(0deg, rgba(249,249,249,1) 65%, rgba(3,0,9,1) 65%);
+        width: 100%;
+    }
+    .left{
+        width: 100%;
+    }
+    .profile{
+        margin-top: 2.5rem;
+        width: 200px;
+        height: 200px;
+        border-radius: 15%;
+        margin-left: 0%;
+    }
+    
+    .right{
+        width: 100%;
+    }
+    .right-content{
+        margin-top: 3rem;
+        padding-left:10%;
+        padding-right: 10%;
+    }
+    .right-content-data{
+        padding-left:10%;
+        padding-right: 10%;
+    }
+    .right-content-para{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        flex-wrap: wrap;
+    }
+    .btn-white{
+        width: 40%;
+        height: 2rem;
+    }
+    .btn{
+        width: 40%;
+        height: 2rem;
+    }
+    .connect-btn{
+        gap: 8px;
+    }
+    
+}
+@media screen and (max-width: 480px){
+    .content{
+        flex-direction: column-reverse;
+        background: linear-gradient(0deg, rgba(249,249,249,1) 63%, rgba(3,0,9,1) 63%);
+    }
+    .left{
+        width: 100%;
+    }
+    .profile{
+        width: 200px;
+        height: 200px;
+        border-radius: 15%;
+        margin-top: 2rem;
+        margin-left: 0%;
+    }
+    .right{
+        width: 100%;
+    }
+    .right-content{
+        margin-top: 3rem;
+        padding-left:10%;
+        padding-right: 10%;
+    }
+    .right-content-data{
+        padding-left:10%;
+        padding-right: 10%;
+    }
+    .btn-white{
+        width: 40%;
+        height: 1.6rem;
+    }
+    .btn{
+        width: 40%;
+        height: 1.6rem;
+    }
+}
