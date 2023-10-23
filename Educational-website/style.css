@@ -1,0 +1,363 @@
+/*-------------------------- HEADER/NAVBAR STYLING STARTS---------------------*/
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    background-color: #1c1b1d;  
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 0px;;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+#logo {
+    display: inline-block;
+    
+    padding-bottom: 10px;
+}
+.navbar-back {
+    background-color: black;
+}
+/*---------------------------- HEADER/NAVBAR STYLING ENDS-----------------------*/
+
+
+
+
+
+/*-----------------------HOME PAGE STYLING STARTS-------------------------*/
+/*image anime starts*/
+.image {
+  position: relative;
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+/*image anime ends*/
+
+/*Title text starts*/
+.title-text {
+  color:#fff;
+  text-align: center;
+  padding: 50px;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 4px;
+  background-clip: text;
+}
+/*Title anime ends*/
+
+/*--------Wavy Animation Starts------------*/
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+  margin:0;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  letter-spacing: 2px;
+  font-size:48px; 
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-size:14px;
+  color: #333333;
+}
+
+.header {
+  position:relative;
+  text-align:center;
+  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  color:white;
+}
+
+.logo {
+  width:30rem;
+  fill:white;
+  padding-right:15px;
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.inner-header {
+  height:65vh;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+
+.flex { /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position:relative;
+  width: 100%;
+  height:15vh;
+  margin-bottom:-7px; /*Fix for safari gap*/
+  min-height:100px;
+  max-height:150px;
+}
+
+.content {
+  position:relative;
+  height:20vh;
+  text-align:center;
+  background-color: white;
+}
+
+/* Animation for wave starts*/
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+/* Animation for wave ends*/
+
+/*Shrinking for mobile view*/
+@media (max-width: 768px) {
+  .waves {
+    height:40px;
+    min-height:40px;
+  }
+  .content {
+    height:30vh;
+  } 
+  #title{
+    text-align: center;
+  }
+  .title-text{
+   font-size: 25px; 
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+/*--------Wavy Animation Ends------------*/
+
+
+/*--------------features section starts----------------*/
+#features{
+    padding-bottom: 8%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center; 
+    padding: 4.5%;
+}
+h3{
+    font-family: "Montserrat-Bold";
+    color: #000;
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+    color: #343a40;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+     color: #69727a;
+}
+/*--------------features section ends----------------*/
+
+
+/*----------------Testimonial Section Starts--------------*/
+#testimonials{
+    text-align: center;
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+}
+.carousel-item {
+    padding: 7% 10%;
+}
+h2{
+    font-family: "Montserrat-Bold"; 
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  h2{
+    font-size: 2rem;
+  }
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/*----------------Testimonial Section Ends--------------*/
+
+
+/*------------------Credits Section Starts*--------------*/
+#credits{
+  background: linear-gradient(120deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  text-align: center;
+  padding:auto;
+  padding-bottom: 5%;
+}
+
+.credits-subtitle{
+  font-family: "Montserrat-Bold"; 
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.credits-title{
+    font-family: "Montserat-Bold"; 
+    font-size: 5rem;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .credits-title{
+    font-size: 3rem;
+  }
+  .credits-subtitle{
+    font-size: 1.5rem;
+  }
+}
+.credits-photo{
+  border-top-left-radius: 50% 50%; 
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  width:8%;
+  align-items: center;
+  margin: 20px;
+  display: initial;
+}
+figcaption{
+  display: inline;
+  font-family: "Montserrat-Bold"; 
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+
+}
+figure{
+    
+  padding-left: 50px;
+  display: inline;
+
+}
+/*------------------Credits Section Ends*----------------*/
+
+
+/*--------------Pricing Section Starts------------------*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.pricing-title{
+  color: #000;
+}
+.call{
+  font-family: "Montserrat-Bold"; 
+  font-size: 4.75rem;
+  line-height: 1.5;
+  color: #000;
+  font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .call{
+    font-size: 3.0rem;
+  }
+}
+/*------------------Pricing Section Ends----------------*/
+
+
+
+/*----------------cta section starts--------------------*/
+#cta{
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-text{
+    font-family: "Montserrat-Bold"; 
+    font-size: 4.75rem;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+  .cta-text{
+    font-size: 2.0rem;
+  }
+}
+/*---------------cta section ends--------------------*/
+
+/*-----------------------HOME PAGE STYLING ENDS-------------------------*/
+
+
+
