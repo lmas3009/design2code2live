@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  color: white;
+  font-size: 34px;
+  margin-top: 26px;
+}
+
+h3 {
+  color: white;
+  margin-top: 10px;
+}
+
+h4 {
+  margin-top: 36px;
+}
+
+.container {
+  width: 100vw;
+  background-color: black;
+}
+
+.inner-cont {
+  display: flex;
+  position: relative;
+  left: 200px;
+  top: 210px;
+}
+
+.img-section img {
+  margin: 23px;
+  outline: none;
+  box-shadow: rgba(255, 255, 255, 0.5) 0px 54px 55px,
+    rgba(254, 254, 254, 0.5) 0px -12px 30px,
+    rgba(255, 255, 255, 0.5) 0px 4px 6px, rgba(255, 255, 255, 0.5) 0px 12px 13px,
+    rgba(255, 255, 255, 0.5) 0px -3px 5px;
+  border-radius: 25px;
+}
+
+.section {
+  height: 340px;
+  margin-left: 20px;
+}
+h4 {
+  padding-top: 10px;
+}
+
+.btn-light {
+  text-decoration: none;
+  font-size: 18px;
+  outline: none;
+  margin-top: 16px;
+  padding: 11px 25px 11px;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn-dark {
+  margin-top: 16px;
+  padding: 12px 25px 12px;
+  font-size: 18px;
+  outline: none;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-light a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-dark a {
+  text-decoration: none;
+  color: white;
+}
