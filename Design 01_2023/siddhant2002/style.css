@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+
+.pic1 {
+    padding-left: 60px;
+    height: 60px;
+    width: 60px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.left {
+    width: 55%;
+}
+
+.left-heading {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    margin-top: 7rem;
+    font-size: 1.4rem;
+}
+
+.left-p {
+    margin-top: 20px;
+    font-size: 1.7rem;
+}
+
+.languages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 5px;
+    padding-right: 10rem;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding-right: 15px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 21px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.pic {
+    width: 240px;
+    height: 200px;
+    border-radius: 15%;
+    box-shadow: 0 1px 1px 0 rgba(238, 238, 238, 0.814), 0 3px 16px 0 rgb(249, 249, 249);
+}
+
+.pic:hover {
+    transform: scale(1.06);
+    box-shadow: 0 3px 5px 0 rgba(115, 235, 143, 0.398), 0 4px 16px 0 rgba(255, 255, 255, 0.65);
+}
+
+.foot
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 26px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1250px) {
+    .languages {
+        padding-right: 2rem;
+    }
+
+    .btn {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left-heading {
+        margin-top: 3rem;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .right {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .btn {
+        width: 24%;
+    }
+
+    .langauges {
+        padding-right: 0rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left-heading {
+        margin-top: 3rem;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .btn {
+        width: 35%;
+    }
+}
