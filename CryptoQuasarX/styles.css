@@ -5,21 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     width: 100%;
+    text-align: center;
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
-}
-
-.title{
-    text-align: center;
-    margin-top: 5rem;
-    font-weight: 900;
-}
-
-.title-p{
-    text-align: center;
-    font-weight: 100;
-    color: grey;
-    font-size: 1rem;
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #f5f6fa !important;
+    color: black !important;
 }
