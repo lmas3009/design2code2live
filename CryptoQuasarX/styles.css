@@ -55,3 +55,63 @@ body{
 .tittle{
     margin: 70px 0;
 }
+
+/* showcase */
+
+.imgg{
+    width: 75px;
+}
+
+.left{
+    position: relative;
+}
+
+.showcase{
+    padding-top: 150px;
+}
+
+.title-showcase{
+    top: 0;
+    font-weight: 900;
+    text-align: left;
+    font-size: 5rem;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.showcase .container{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 50px;
+}
+
+
+.showcase-img{
+    width: 400px;
+}
+
+
+.showcase2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.showcase2-title{
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+.showcase2-p{
+    color: grey;
+    font-weight: 100;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.learn-more{
+    color: #4368C7;
+    font-weight: bold;
+}
