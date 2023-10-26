@@ -178,3 +178,21 @@ body{
     justify-content: left;
     width: 400px;
 }
+
+.footer3{
+    background-color: #4368C7;
+    color: #fff;
+}
+
+.footer3 .container ul li .color{
+    color: #fff !important;
+}
+
+.form-footer{
+    padding: 50px 0;
+}
+
+.btn-color{
+    color: white !important;
+    background-color: #4368C7 !important;
+}
