@@ -13,3 +13,45 @@ body{
     background-color: #f5f6fa !important;
     color: black !important;
 }
+
+.title{
+    margin-top: 5rem;
+    font-weight: 900;
+    font-size: 5rem;
+}
+
+.title-p{
+    font-weight: 100;
+    color: grey;
+    font-size: 1rem;
+    padding-top: 10px;
+}
+
+.button-create{
+    width: auto;
+    margin-bottom: 4rem;
+}
+
+.img{
+    padding: 20px 0;
+    height: 75%;
+    width: 75%;
+    margin: auto;
+}
+
+.title2{
+    font-weight:bold;
+    padding-top: 30px;
+}
+
+.hero .container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 36vw;
+    margin-bottom: 30px;
+}
+
+.tittle{
+    margin: 70px 0;
+}
