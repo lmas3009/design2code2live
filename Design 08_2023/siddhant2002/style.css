@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("images/img1.jpg");
+    background-repeat: no-repeat;
+    background-position: center/cover;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    color: white;
+    position: absolute;
+    bottom: 70px;
+    padding-left: 20px;
+}
+
+.container h1 {
+    font-size: 45px;
+}
+
+.container p {
+    padding-top: 20px;
+    font-size: 18px;
+}
