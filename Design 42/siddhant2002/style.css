@@ -1,0 +1,83 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    outline: none;
+    background-color: black;
+    color: rgb(172, 232, 240);
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+
+.container
+{
+    display: flex;
+}
+
+
+.pic img
+{
+    padding-top: 5%;
+    position: relative;
+    left: -44%;
+    justify-content: right;
+    height: 61%;
+    width: 60%;
+    border-radius: 18%;
+}
+
+.sub-container
+{
+    position: relative;
+    left: -33%;
+}
+
+.sub-container p
+{
+    font-size: 22px;
+}
+
+.sub-container h1
+{
+    font-size: 34px;
+}
+
+.para
+{
+    padding-top: 10px;
+}
+
+.content
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: -27%;
+    bottom: 380px;
+}
+
+
+.button
+{
+    position: relative;
+    top: 60px;
+    right: 22%;
+}
+
+.btn
+{
+    padding: 13px 32px 13px;
+    border-radius: 45px;
+    background-color: rgb(172, 232, 240);
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
