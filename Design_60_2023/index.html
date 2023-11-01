@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        h2,h3,p,span {
+            color: whitesmoke;
+            font-family: Figtree;
+        }
+
+        svg {
+            height: 20px;
+            width: 20px;
+        }
+
+        .r-footer .title .heading>svg {
+            height: 24px;
+            width: 24px;
+        }
+
+        .left-container .header{
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+        
+        .left-container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-flexx">
+        <div class="left-container">
+            <div class="header">
+                <div class="h-one">
+                    <div class="profile">
+                        <img src="https://source.unsplash.com/OBufvGMaBaQ" alt="person">
+                        <h3>Jacob Jones</h3>
+                    </div>
+                    <div class="post">
+                        <button class="button">Post</button>
+                    </div>
+                </div>
+                <div class="h-two">
+                    <input placeholder="Start a thread..." id="search-bar" name="text" type="text" required="required">
+                </div>
+                <div class="h-three">
+                    <div class="start">
+                        <input type="file" class="add-file">
+                    </div>
+                    <div class="end">
+                        <button class="dropdown">
+                            <span>Anyone can replay</span>
+                            <span class="arrow"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main">
+                <div class="main-left">
+                    <img src="https://source.unsplash.com/man-in-black-jacket-and-brown-cap-YUu9UAcOKZ4" alt="">
+                    <div class="border"></div>
+                    <img src="https://source.unsplash.com/smiling-woman-wearing-white-and-black-pinstriped-collared-top-QXevDflbl8A" alt="" id="downimg">
+                </div>
+                <div class="main-right">
+                    <div class="up">
+                        <div class="name">
+                            <h3>Devon Lane</h3> 
+                        </div>
+                        <div class="6m" style="display: flex; gap: 0.8rem; align-items: center; justify-content: center;">
+                            <h4 style="font-family: Figtree;">6m</h4>
+                            <h4 style="font-family: Figtree;">•••</h4>
+                        </div>
+                    </div>
+                    <div class="para">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Temporibus dignissimos at quia non inventore cupiditate nisi 
+                            vero nobis minima quasi, vitae libero necessitatibus dolores 
+                            iste quis ut fuga est. Commodi. Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Architecto maxime, temporibus possimus nemo reiciendis
+                            cupiditate vero molestias natus ab. Veritatis mollitia eligendi temporibus 
+                            deserunt praesentium voluptatibus sunt, ab excepturi soluta.</p>
+                    </div>
+                    <div class="photo">
+                            <!-- <img src="https://source.unsplash.com/rTZW4f02zY8" alt=""> -->
+                    </div>
+                    <div class="icons">
+                            <div class="like">
+                                <?xml version="1.0"?>
+                                <svg xmlns="http://www.w3.org/2000/svg" id="Icons" viewBox="0 0 64 64" width="512" height="512" fill="white">
+                                    <path d="M45.5,4A18.53,18.53,0,0,0,32,9.86,18.5,18.5,0,0,0,0,22.5C0,40.92,29.71,59,31,59.71a2,2,0,0,0,2.06,0C34.29,59,64,40.92,64,22.5A18.52,18.52,0,0,0,45.5,4ZM32,55.64C26.83,52.34,4,36.92,4,22.5a14.5,14.5,0,0,1,26.36-8.33,2,2,0,0,0,3.27,0A14.5,14.5,0,0,1,60,22.5C60,36.91,37.17,52.33,32,55.64Z"/>
+                                </svg>
+                            </div>
+                            <div class="comment">
+                                <svg height="512" viewBox="0 0 16 16" width="512" xmlns="http://www.w3.org/2000/svg" fill="white">
+                                    <path d="m2.7345 13.375 2.0315-.6875.3595.1875c.85433.4167 1.81267.625 2.875.625 1.78133-.0417 3.2188-.5833 4.3125-1.625s1.6562-2.33333 1.6875-3.875c-.0313-1.552-.5912-2.84633-1.6795-3.883s-2.5285-1.57567-4.3205-1.617c-1.79167.04167-3.23183.58067-4.3205 1.617s-1.6485 2.33067-1.6795 3.883c0 .58333.09383 1.14583.2815 1.6875.18767.5417.45333 1.0417.797 1.5l.344.453zm-.719 1.2815c-.198.0627-.36733.0183-.508-.133s-.1745-.3258-.1015-.5235l.875-2.203c-.41667-.552-.73433-1.151-.953-1.797s-.328-1.31267-.328-2c.021-1.71867.64867-3.216 1.883-4.492s2.94-1.94533 5.117-2.008c2.177.06267 3.8827.732 5.117 2.008s1.862 2.77333 1.883 4.492c-.021 1.71867-.6512 3.216-1.8905 4.492s-2.9425 1.9453-5.1095 2.008c-1.25-.0103-2.35417-.2552-3.3125-.7345z" />
+                                </svg>
+                            </div>
+                            <div class="suffle">
+                                <svg id="Capa_1" enable-background="new 0 0 491.978 491.978" height="512" viewBox="0 0 491.978 491.978" width="512" xmlns="http://www.w3.org/2000/svg" fill="white">
+                                    <g><g id="a28c3208-742e-4335-9513-ebe77b66aa56">
+                                        <path d="m420.228 397.38c1.757 4.276 1.757 9.073 0 13.349-.836 2.156-2.089 4.126-3.689 5.796l-70.258 70.258c-6.831 6.887-17.952 6.933-24.84.102-.034-.034-.068-.068-.102-.102-6.887-6.831-6.933-17.952-.102-24.84l.102-.102 40.398-40.223h-203.57c-48.503 0-87.822-39.319-87.822-87.822v-140.515c0-9.701 7.864-17.564 17.564-17.564s17.564 7.864 17.564 17.564v140.516c0 29.102 23.592 52.693 52.693 52.693h203.572l-40.398-40.223c-6.887-6.887-6.887-18.054 0-24.942 6.887-6.887 18.054-6.887 24.941 0l70.258 70.258c1.6 1.671 2.853 3.641 3.689 5.797zm-86.417-327.05h-203.572l40.398-40.223c6.887-6.887 6.887-18.054 0-24.942-6.887-6.887-18.054-6.887-24.942 0l-70.257 70.258c-1.599 1.67-2.853 3.64-3.689 5.796-1.757 4.276-1.757 9.073 0 13.349.836 2.156 2.089 4.126 3.689 5.796l70.258 70.258c6.831 6.887 17.952 6.933 24.84.102l.102-.102c6.887-6.831 6.933-17.952.102-24.84-.034-.034-.068-.068-.102-.102l-40.398-40.223h203.572c29.102 0 52.693 23.592 52.693 52.693v140.516c0 9.701 7.864 17.564 17.564 17.564s17.564-7.864 17.564-17.564v-140.514c.001-48.503-39.319-87.822-87.822-87.822z"/></g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="share">
+                                <svg id="Layer_1" enable-background="new 0 0 511.999 512" height="512" viewBox="0 0 511.999 512" width="512" xmlns="http://www.w3.org/2000/svg" fill="white">
+                                    <path d="m506.252 12.1c-5.625-7.803-14.641-12.1-25.389-12.1-5.046 0-10.456.951-16.077 2.826l-435.428 145.142c-15.04 5.013-25.406 15.258-28.441 28.11-3.035 12.853 1.654 26.655 12.865 37.869 1.096 1.097 2.356 2.017 3.734 2.728l183.321 94.497 94.501 183.322c.71 1.377 1.63 2.637 2.726 3.733 9.009 9.01 19.399 13.773 30.049 13.774h.003c16.128 0 29.896-11.248 35.927-29.349l145.145-435.427c4.563-13.694 3.52-26.168-2.936-35.125zm-476.138 170.873c.574-2.433 3.92-4.94 8.73-6.544l413.285-137.762-243.017 243.017-175.54-90.485c-2.644-3.09-3.951-6.138-3.458-8.226zm305.468 290.193c-1.424 4.271-4.132 8.834-7.466 8.834-2.02 0-4.664-1.307-7.303-3.564l-90.488-175.539 243.024-243.023z"/>
+                                </svg>
+                            </div>
+                    </div>
+                    <div class="down">
+                        <div class="d1" style="color: whitesmoke; font-family: Figtree;">3 replies</div>
+                        <div class="d2" style="color: whitesmoke; font-family: Figtree;">
+                            <p> • </p>
+                        </div>
+                        <div class="d3" style="color: whitesmoke; font-family: Figtree;">Liked by evolutionx-10 and others</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main">
+                <div class="main-left">
+                    <img src="https://source.unsplash.com/man-in-black-jacket-and-brown-cap-YUu9UAcOKZ4" alt="">
+                    <div class="border"></div>
+                    <img src="https://source.unsplash.com/smiling-woman-wearing-white-and-black-pinstriped-collared-top-QXevDflbl8A" alt="" id="downimg">
+                </div>
+                <div class="main-right">
+                    <div class="up">
+                        <div class="name">
+                            <h3>Mac Morris</h3> 
+                        </div>
+                        <div class="6m" style="display: flex; gap: 0.8rem; align-items: center; justify-content: center;">
+                            <h4 style="font-family: Figtree;">6m</h4>
+                            <h4 style="font-family: Figtree;">•••</h4>
+                        </div>
+                    </div>
+                    <div class="para">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Temporibus dignissimos at quia non inventore cupiditate nisi 
+                            vero nobis minima quasi, vitae libero necessitatibus dolores 
+                            iste quis ut fuga est. Commodi. Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Architecto maxime, temporibus possimus nemo reiciendis
+                            cupiditate vero molestias natus ab. Veritatis mollitia eligendi temporibus 
+                            deserunt praesentium voluptatibus sunt, ab excepturi soluta.</p>
+                    </div>
+                    <div class="photo21">
+                            <!-- <img src="https://source.unsplash.com/rTZW4f02zY8" alt=""> -->
+                    </div>
+                    <div class="icons">
+                            <div class="like">
+                                <?xml version="1.0"?>
+                                <svg xmlns="http://www.w3.org/2000/svg" id="Icons" viewBox="0 0 64 64" width="512" height="512" fill="white">
+                                    <path d="M45.5,4A18.53,18.53,0,0,0,32,9.86,18.5,18.5,0,0,0,0,22.5C0,40.92,29.71,59,31,59.71a2,2,0,0,0,2.06,0C34.29,59,64,40.92,64,22.5A18.52,18.52,0,0,0,45.5,4ZM32,55.64C26.83,52.34,4,36.92,4,22.5a14.5,14.5,0,0,1,26.36-8.33,2,2,0,0,0,3.27,0A14.5,14.5,0,0,1,60,22.5C60,36.91,37.17,52.33,32,55.64Z"/>
+                                </svg>
+                            </div>
+                            <div class="comment">
+                                <svg height="512" viewBox="0 0 16 16" width="512" xmlns="http://www.w3.org/2000/svg" fill="white">
+                                    <path d="m2.7345 13.375 2.0315-.6875.3595.1875c.85433.4167 1.81267.625 2.875.625 1.78133-.0417 3.2188-.5833 4.3125-1.625s1.6562-2.33333 1.6875-3.875c-.0313-1.552-.5912-2.84633-1.6795-3.883s-2.5285-1.57567-4.3205-1.617c-1.79167.04167-3.23183.58067-4.3205 1.617s-1.6485 2.33067-1.6795 3.883c0 .58333.09383 1.14583.2815 1.6875.18767.5417.45333 1.0417.797 1.5l.344.453zm-.719 1.2815c-.198.0627-.36733.0183-.508-.133s-.1745-.3258-.1015-.5235l.875-2.203c-.41667-.552-.73433-1.151-.953-1.797s-.328-1.31267-.328-2c.021-1.71867.64867-3.216 1.883-4.492s2.94-1.94533 5.117-2.008c2.177.06267 3.8827.732 5.117 2.008s1.862 2.77333 1.883 4.492c-.021 1.71867-.6512 3.216-1.8905 4.492s-2.9425 1.9453-5.1095 2.008c-1.25-.0103-2.35417-.2552-3.3125-.7345z" />
+                                </svg>
+                            </div>
+                            <div class="suffle">
+                                <svg id="Capa_1" enable-background="new 0 0 491.978 491.978" height="512" viewBox="0 0 491.978 491.978" width="512" xmlns="http://www.w3.org/2000/svg" fill="white">
+                                    <g><g id="a28c3208-742e-4335-9513-ebe77b66aa56">
+                                        <path d="m420.228 397.38c1.757 4.276 1.757 9.073 0 13.349-.836 2.156-2.089 4.126-3.689 5.796l-70.258 70.258c-6.831 6.887-17.952 6.933-24.84.102-.034-.034-.068-.068-.102-.102-6.887-6.831-6.933-17.952-.102-24.84l.102-.102 40.398-40.223h-203.57c-48.503 0-87.822-39.319-87.822-87.822v-140.515c0-9.701 7.864-17.564 17.564-17.564s17.564 7.864 17.564 17.564v140.516c0 29.102 23.592 52.693 52.693 52.693h203.572l-40.398-40.223c-6.887-6.887-6.887-18.054 0-24.942 6.887-6.887 18.054-6.887 24.941 0l70.258 70.258c1.6 1.671 2.853 3.641 3.689 5.797zm-86.417-327.05h-203.572l40.398-40.223c6.887-6.887 6.887-18.054 0-24.942-6.887-6.887-18.054-6.887-24.942 0l-70.257 70.258c-1.599 1.67-2.853 3.64-3.689 5.796-1.757 4.276-1.757 9.073 0 13.349.836 2.156 2.089 4.126 3.689 5.796l70.258 70.258c6.831 6.887 17.952 6.933 24.84.102l.102-.102c6.887-6.831 6.933-17.952.102-24.84-.034-.034-.068-.068-.102-.102l-40.398-40.223h203.572c29.102 0 52.693 23.592 52.693 52.693v140.516c0 9.701 7.864 17.564 17.564 17.564s17.564-7.864 17.564-17.564v-140.514c.001-48.503-39.319-87.822-87.822-87.822z"/></g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="share">
+                                <svg id="Layer_1" enable-background="new 0 0 511.999 512" height="512" viewBox="0 0 511.999 512" width="512" xmlns="http://www.w3.org/2000/svg" fill="white">
+                                    <path d="m506.252 12.1c-5.625-7.803-14.641-12.1-25.389-12.1-5.046 0-10.456.951-16.077 2.826l-435.428 145.142c-15.04 5.013-25.406 15.258-28.441 28.11-3.035 12.853 1.654 26.655 12.865 37.869 1.096 1.097 2.356 2.017 3.734 2.728l183.321 94.497 94.501 183.322c.71 1.377 1.63 2.637 2.726 3.733 9.009 9.01 19.399 13.773 30.049 13.774h.003c16.128 0 29.896-11.248 35.927-29.349l145.145-435.427c4.563-13.694 3.52-26.168-2.936-35.125zm-476.138 170.873c.574-2.433 3.92-4.94 8.73-6.544l413.285-137.762-243.017 243.017-175.54-90.485c-2.644-3.09-3.951-6.138-3.458-8.226zm305.468 290.193c-1.424 4.271-4.132 8.834-7.466 8.834-2.02 0-4.664-1.307-7.303-3.564l-90.488-175.539 243.024-243.023z"/>
+                                </svg>
+                            </div>
+                    </div>
+                    <div class="down">
+                        <div class="d1" style="color: whitesmoke; font-family: Figtree;">3 replies</div>
+                        <div class="d2" style="color: whitesmoke; font-family: Figtree;">
+                            <p> • </p>
+                        </div>
+                        <div class="d3" style="color: whitesmoke; font-family: Figtree;">Liked by evolutionx-10 and others</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divide"></div>
+        <div class="right-container">
+            <div class="r-header">
+                <div class="follow">
+                    <h3>Follow suggestions</h3>
+                    <button class="button">View All</button>
+                </div>
+                <div class="gap" style="height: 1rem;"></div>
+                <div class="people">
+                    <div class="p-name">
+                        <img src="https://source.unsplash.com/man-standing-in-woods-near-road-during-daytime-XxJ_HIXw25M" alt="">
+                        <span>Jane Cooper</span>
+                    </div>
+                    <div class="follow-btn">
+                        <button>Follow</button>
+                    </div>
+                </div>
+                <div class="people">
+                    <div class="p-name">
+                        <img src="https://source.unsplash.com/man-standing-in-woods-near-road-during-daytime-XxJ_HIXw25M" alt="">
+                        <span>Arlene McCoy</span>
+                    </div>
+                    <div class="follow-btn">
+                        <button>Follow</button>
+                    </div>
+                </div>
+                <div class="people">
+                    <div class="p-name">
+                        <img src="https://source.unsplash.com/man-standing-in-woods-near-road-during-daytime-XxJ_HIXw25M" alt="">
+                        <span>Cody Fisher</span>
+                    </div>
+                    <div class="follow-btn">
+                        <button>Follow</button>
+                    </div>
+                </div>
+                <div class="people">
+                    <div class="p-name">
+                        <img src="https://source.unsplash.com/man-standing-in-woods-near-road-during-daytime-XxJ_HIXw25M" alt="">
+                        <span>Itachi Uchiha</span>
+                    </div>
+                    <div class="follow-btn">
+                        <button>Follow</button>
+                    </div>
+                </div>
+                <div class="people">
+                    <div class="p-name">
+                        <img src="https://source.unsplash.com/man-standing-in-woods-near-road-during-daytime-XxJ_HIXw25M" alt="">
+                        <span>Robert Downey Jr</span>
+                    </div>
+                    <div class="follow-btn">
+                        <button>Follow</button>
+                    </div>
+                </div>
+                <div class="people">
+                    <div class="p-name">
+                        <img src="https://source.unsplash.com/man-standing-in-woods-near-road-during-daytime-XxJ_HIXw25M" alt="">
+                        <span>Chris Evans</span>
+                    </div>
+                    <div class="follow-btn">
+                        <button>Follow</button>
+                    </div>
+                </div>
+                <div class="people">
+                    <div class="p-name">
+                        <img src="https://source.unsplash.com/man-standing-in-woods-near-road-during-daytime-XxJ_HIXw25M" alt="">
+                        <span>Bruce Wayne</span>
+                    </div>
+                    <div class="follow-btn">
+                        <button>Follow</button>
+                    </div>
+                </div>
+            </div>
+            <div class="r-footer"  style="border-top: 3px solid rgba(255, 255, 255, 0.5);">
+                <div class="title">
+                    <div class="heading" style="display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
+                        <svg xmlns="http://www.w3.org/2000/svg" aria-label="Threads" viewBox="0 0 192 192" fill="white">
+                            <path class="x19hqcy" d="M141.537 88.9883C140.71 88.5919 139.87 88.2104 139.019 87.8451C137.537 60.5382 122.616 44.905 97.5619 44.745C97.4484 44.7443 97.3355 44.7443 97.222 44.7443C82.2364 44.7443 69.7731 51.1409 62.102 62.7807L75.881 72.2328C81.6116 63.5383 90.6052 61.6848 97.2286 61.6848C97.3051 61.6848 97.3819 61.6848 97.4576 61.6855C105.707 61.7381 111.932 64.1366 115.961 68.814C118.893 72.2193 120.854 76.925 121.825 82.8638C114.511 81.6207 106.601 81.2385 98.145 81.7233C74.3247 83.0954 59.0111 96.9879 60.0396 116.292C60.5615 126.084 65.4397 134.508 73.775 140.011C80.8224 144.663 89.899 146.938 99.3323 146.423C111.79 145.74 121.563 140.987 128.381 132.296C133.559 125.696 136.834 117.143 138.28 106.366C144.217 109.949 148.617 114.664 151.047 120.332C155.179 129.967 155.42 145.8 142.501 158.708C131.182 170.016 117.576 174.908 97.0135 175.059C74.2042 174.89 56.9538 167.575 45.7381 153.317C35.2355 139.966 29.8077 120.682 29.6052 96C29.8077 71.3178 35.2355 52.0336 45.7381 38.6827C56.9538 24.4249 74.2039 17.11 97.0132 16.9405C119.988 17.1113 137.539 24.4614 149.184 38.788C154.894 45.8136 159.199 54.6488 162.037 64.9503L178.184 60.6422C174.744 47.9622 169.331 37.0357 161.965 27.974C147.036 9.60668 125.202 0.195148 97.0695 0H96.9569C68.8816 0.19447 47.2921 9.6418 32.7883 28.0793C19.8819 44.4864 13.2244 67.3157 13.0007 95.9325L13 96L13.0007 96.0675C13.2244 124.684 19.8819 147.514 32.7883 163.921C47.2921 182.358 68.8816 191.806 96.9569 192H97.0695C122.03 191.827 139.624 185.292 154.118 170.811C173.081 151.866 172.51 128.119 166.26 113.541C161.776 103.087 153.227 94.5962 141.537 88.9883ZM98.4405 129.507C88.0005 130.095 77.1544 125.409 76.6196 115.372C76.2232 107.93 81.9158 99.626 99.0812 98.6368C101.047 98.5234 102.976 98.468 104.871 98.468C111.106 98.468 116.939 99.0737 122.242 100.233C120.264 124.935 108.662 128.946 98.4405 129.507Z"/>
+                        </svg>
+                        <span style="font-size: larger;">Today on Threads</span>
+                    </div>
+                    <div class="viewall-btn">
+                        <button class="button">View All</button>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="person">
+                        <img src="https://source.unsplash.com/silhouette-photo-of-a-woman-u49hkWzTL3w" alt="">
+                        <h3>Ashley Richards</h3>
+                    </div>
+                    <div class="para2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem laudantium dolorum eos sit voluptas nam totam quia aliquam, impedit suscipit, quam commodi minima dolor voluptatibus quaerat neque molestias alias eveniet?
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ut quaerat eos dolorum sint ipsa labore laboriosam soluta animi, sunt assumenda, quae eum nesciunt. Autem laudantium laborum nemo sit omnis!
+                        </p>
+                    </div>
+                    <div class="photo2">
+                        <!-- <img src="https://source.unsplash.com/HSXIp58yPyI" alt=""> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

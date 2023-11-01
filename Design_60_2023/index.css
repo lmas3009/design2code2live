@@ -1,0 +1,375 @@
+:root {
+    --bg-color: #ffe0a1;
+    --bg-color-dark: #ffcb9d;
+    --blob-one-color: #ffd782;
+    --blob-two-color: #a4dff0;
+    --blob-three-color: #f3c7cb;
+    --bg-black: #171717;
+    --bg-white: #eff3f7;
+    --bg-blue: #1e2657;
+    --bg-button: #ff3a6f;
+    --text-color: #fff8f2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid sandybrown; */
+}
+
+body {
+    background: url(https://source.unsplash.com/black-flat-screen-computer-monitor-turned-on-near-black-computer-keyboard-B10AxHKLvnQ);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-flexx {
+    display: flex;
+    color: #fff;
+    margin: 4em;
+    background-color: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 15px;
+    padding: 32px;
+    backdrop-filter: blur(15px);
+    gap: 2rem;
+}
+
+.divide {
+    border-left: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+.header .h-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .h-two {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .h-two #search-bar {
+    width: 100%;
+    height: 40px;
+    color: #ffffff;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 0px 12px;
+    caret-color: #eff3f7;
+    outline: none;
+    font-size: 16px;
+    transition-duration: .2s;
+}
+
+#search-bar:hover,
+#search-bar:focus {
+    border-color: #868686;
+}
+
+.header .h-three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.header .h-one .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+}
+
+.header .h-one .profile img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.main {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.main-left img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.main-right .up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-right .photo {
+    height: 15rem;
+    width: 30rem;
+    border-radius: 10px;
+    background: url(https://source.unsplash.com/photo-of-dining-table-and-chairs-inside-room-eHD8Y1Znfpk);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    /* margin: 20px; */
+}
+
+.main-right .photo21 {
+    height: 15rem;
+    width: 30rem;
+    border-radius: 10px;
+    background: url(https://source.unsplash.com/a-lamp-on-a-table-in-front-of-a-picture-of-a-city-_7OnD9wtfe8);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    /* margin: 20px; */
+}
+
+.main-right .icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main-right .down {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-left #downimg {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.main-left .border {
+    height: 25.5rem;
+    border-left: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+.r-footer .content .person img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.r-footer .content .photo2 {
+    height: 15rem;
+    width: 30rem;
+    border-radius: 10px;
+    background: url(https://source.unsplash.com/HSXIp58yPyI);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin: 20px; */
+}
+
+.button {
+    --button-bg: rgba(128, 128, 128, 0.39);
+    --button-hover-bg: #464646;
+    --button-text-color: #CCCCCC;
+    --button-hover-text-color: #8bb9fe;
+    --button-border-radius: 50px;
+    --button-diameter: 6rem;
+    --button-outline-width: 1px;
+    --button-outline-color: rgb(141, 141, 141);
+}
+
+.button {
+    font-size: large;
+    box-sizing: border-box;
+    width: var(--button-diameter);
+    height: 40px;
+    border-radius: var(--button-border-radius);
+    background-color: var(--button-bg);
+    color: var(--button-text-color);
+    border: none;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+}
+
+.people .follow-btn button {
+    font-size: large;
+    box-sizing: border-box;
+    width: var(--button-diameter);
+    height: 40px;
+    color: #ffe3e3dd;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    background-color: transparent;
+}
+
+.people .follow-btn button:hover {
+    color: #fff5f5dd;
+}
+
+.d2 > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-container {
+    max-height: 962px;
+    overflow-y: scroll;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40%;
+}
+
+.r-header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.r-header .follow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.r-header .people {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.r-header .people .p-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.r-header .people .p-name img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.r-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.r-footer .title {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .person {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 1rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 1rem;
+}
+
+.end {
+    max-width: 13em;
+    position: relative;
+    width: 100%;
+}
+
+.dropdown {
+    background: #51464a;
+    font-size: 12px;
+    width: 100%;
+    border: none;
+    color: #fff8f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .7em 1.5em;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    transition: transform ease-in-out 0.3s;
+}
+
+.dropdown-content {
+    list-style: none;
+    top: 3.2em;
+    width: 100%;
+    position: absolute;
+}
+
+.add-file::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.add-file::before {
+    content: 'Select some files';
+    display: inline-block;
+    background: #51464a;
+    padding: 8px 36px;
+    border-radius: 0.5em;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: 10pt;
+    font-family: Figtree;
+}
+
+.add-file:active::before {
+    background: -webkit-linear-gradient(top, #918d8d7d, #f9f9f94d);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
