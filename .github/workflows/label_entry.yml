@@ -16,5 +16,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              labels: ["bootstrap","css","good first issue", "hacktoberfest", "hacktoberfest23", "hacktoberfest-accepted", "html", "tailwindcss"]
+              labels: ["bootstrap","css","good first issue", "hacktoberfest", "hacktoberfest2024", "hacktoberfest24", "hacktoberfest-2024", "hacktoberfest-accepted", "html", "tailwindcss"]
             })
