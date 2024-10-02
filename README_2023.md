@@ -1,4 +1,4 @@
-![hacktoberfest](image.png)
+![image](https://github.com/lmas3009/design2code2live/assets/60876387/00e44636-c2ed-4921-bef3-55caa16ad191)
 
 # design2code2live
 
@@ -12,7 +12,7 @@ Build the code from the design and push it to the repository. You can see your d
 
 github link: https://github.com/lmas3009/design2code2live
 
-## Contribute through Hacktoberfest 2024
+## Contribute through Hacktoberfest 2023 
 HACKTOBERFEST IS FOR EVERYONE. WHETHER IT’S YOUR FIRST TIME—OR YOUR NINTH—IT’S ALMOST TIME TO HACK OUT FOUR PRISTINE PULL/MERGE REQUESTS AND COMPLETE YOUR MISSION FOR OPEN SOURCE  
 
 Link 👉https://hacktoberfest.com/
