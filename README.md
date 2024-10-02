@@ -21,6 +21,11 @@ Link 👉https://hacktoberfest.com/
 JOIN THE DISCORD - https://discord.com/invite/RfMEVfVGJk and get notified when the event starts and information related to designs.
 
 
+## This year are giving away sticker packs for all the developers who contributes to design2code2live
+![sticker](https://github.com/user-attachments/assets/7a075fe6-5988-484d-91ee-64bc806cc295)
+
+
+
 ## Contribution Guidelines
 
 1. Select the respective issue
