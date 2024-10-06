@@ -1,0 +1,100 @@
+body
+{
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+}
+
+
+.container
+{
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+    background-color: rgb(31, 28, 28);
+    height: 590px;
+    width: 900px;
+    margin-top: 5%;
+}
+
+.sub-container
+{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+
+.container img
+{
+    position: relative;
+    height: 25px;
+    width: 37px;
+    margin: 0;
+    padding: 0%;
+    top: -45%;
+    left: 4%;
+}
+
+h3
+{
+    color: white;
+}
+
+.box1
+{
+    background-image: url("Images/img1.jpeg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 400px;
+    height: 500px;
+    border-radius: 5%;
+    background-size: 300px 465px;
+}
+
+.box1 h3
+{
+    margin: 8%;
+}
+
+.self h3
+{
+    margin: 3%;
+}
+
+.self
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -11%;
+}
+
+.box2
+{
+    
+    background-image: url("Images/img2.jpeg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+    background-size: 400px 225px;
+}
+
+.box3
+{
+    position: relative;
+    background-image: url("Images/img3.jpeg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 400px;
+    height: 300px;
+    border-radius: 5%;
+    background-size: 400px 225px;
+    top: -10%;
+}
