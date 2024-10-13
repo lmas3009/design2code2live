@@ -1,0 +1,102 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+
+.sub-container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.header
+{
+    font-size: 18px;
+    flex-basis: 40%;
+    padding-top: 5%;
+}
+.header p
+{
+    padding-left: 70px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.pic {
+    max-width: 100px;
+    position: relative;
+    justify-content: right;
+    right: -50%;
+    margin-top: -25%;
+}
+
+.pic img{
+    position: relative;
+    transform: rotate(335deg);
+    height: 755px;
+    margin: 0 auto;
+    border-radius: 10%;  
+}
+
+/* .pic
+{
+    display: flex;
+    position:relative;
+    justify-content: right;
+    right: -50%;
+    margin-top: -22%;
+    border-radius: 10%;
+} */
+
+/* .pic img
+{
+    
+    transform: rotate(335deg);
+    height: 720px;
+    object-fit: contain;
+    border-radius: 15px;
+      
+} */
+
+.content
+{
+    position: relative;
+    padding-left: 70px;
+    top: 410px;
+}
+
+.content h1
+{
+    font-size: 50px;
+}
+
+.content p
+{
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.but
+{
+    padding-top: 15px;
+}
+
+.btn
+{
+    padding: 15px 45px 15px;
+    cursor: pointer;
+    background-color: rgb(251, 64, 1);
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+}
