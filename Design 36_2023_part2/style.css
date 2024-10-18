@@ -1,0 +1,118 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.container
+{
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.upper
+{
+    display: flex;
+}
+
+.upper img
+{
+    width: 68%;
+    margin-top: -15%;
+    margin-left: -12.5%;
+}
+
+
+.text p
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text h1
+{
+    position: relative;
+    font-size: 31px;
+    top: 10px;
+    font-weight: 400;
+}
+
+.line
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 3%;
+    gap: 20px;
+}
+
+.line1
+{
+    width: 90px;
+    height: 10px;
+    background-color: rgb(182, 127, 25);
+    border-radius: 5px;
+}
+
+.line2
+{
+    width: 70px;
+    height: 10px;
+    background-color: rgb(182, 127, 25);
+    border-radius: 5px;
+}
+
+.lower
+{
+    margin-left: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.lower img
+{
+    position: relative;
+    height: 55%;
+    right: -57%;
+    top: -26%;
+    border-radius: 10%;
+}
+
+.foot
+{
+    margin-left: 1%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: -740px;
+    gap: 20px;
+}
+
+.foot p
+{
+    position: relative;
+    top: 15px;
+    font-weight: 500;
+}
+
+.btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    height: 5px;
+    font-family: "Roboto", sans-serif;
+    width: 100px;
+    border-radius: 50px;
+}
