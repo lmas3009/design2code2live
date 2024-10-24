@@ -59,10 +59,4 @@ git push -u origin {BranchName}
 
 If you like to contribute to this project. Please make sure you star it.
 
-## Our Contributors
-<a href="https://github.com/lmas3009/design2code2live/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=lmas3009/design2code2live&max=1000" />
-</a>
-
-
 
