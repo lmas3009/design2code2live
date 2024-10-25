@@ -58,5 +58,3 @@ git push -u origin {BranchName}
 10. Wait until the PR is accepted and merged with `hacktoberfest-accepted` tag
 
 If you like to contribute to this project. Please make sure you star it.
-
-
