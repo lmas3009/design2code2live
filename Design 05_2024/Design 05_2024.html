@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expanded Grid Cells</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./1.css">
+    <style type="text/tailwindcss">
+        @layer utilities {
+          *{
+            background-color: #e6b1a9;
+          }
+          .grid{
+            background-color:rgb(48 34 47);
+            padding: 2rem;
+          }
+
+        .c1 {            
+            margin: 5px;
+            display: flex;
+        }
+        .row-span-2 {
+            grid-row: span 2 / span 2;
+         }
+    }
+    </style>
+</head>
+<body class="flex justify-center items-center ">
+    <div id="container" class="p-4 m-auto ">
+        <div class="grid grid-cols-7 gap-2 md:gap-4 rounded-xl m-auto w-2/3 md:w-4/7">
+            <div class="c1 i1 rounded-xl col-span-2 row-span-2 min-h-full overflow-hidden">
+                <img src="./Design 05_2024/img-1.webp" alt="Image" class="w-full h-full object-cover">
+            </div>
+
+            <div class="c1 i2 bg col-span-3 p-2  rounded-xl overflow-hidden flex-col ">
+                <h4 class="p-1 text-xl bg  ml-3 mb-1 mt-1">Summer collection</h4>
+                <p class="p-1 text-2xl bg text-left m-3">TRENDY AND CLUSSI FOR NEW SEASON.</p>
+                <button class="p-2 m-3 text-xl w-2/5 bg-yellow-500 rounded-xl ">See more</button>
+            </div>
+
+            <div class="c1 i3 rounded-xl col-span-2 row-span-2 min-h-full overflow-hidden">
+                <img src="./Design 05_2024/image.png" alt="Image" class="w-full h-full object-cover">
+            </div>
+            <div class="c1 i4 rounded-xl col-span-3 row-span-2 overflow-hidden">
+                <img src="./Design 05_2024/i4.png" alt="Image" class="w-full h-full object-cover">
+            </div>
+            <div class="c1  i5 rounded-xl col-span-2 overflow-hidden">
+                <p class="text-l md:text-2xl text-left bg-white p-5 font-medium font-serif leading-5 ">Start growing your style with us.</p>
+            </div>
+            <div class="c1 i6 rounded-xl row-span-2 overflow:hidden p-1 bg-white flex flex-col col-span-2">
+                    <div class="">
+                        <p class="text-xl col-span-2 text-left bg-white p-1 font-medium ">Daily collections of outfits</p>
+                    </div>
+                    <div class=" i3 rounded-xl row-span-2 col-span-2 overflow-hidden">
+                        <img src="./Design 05_2024/img-6.png" alt="Image" class="w-full h-full object-cover">
+                    </div>
+            </div>
+            <div class="c1 i7 p-2 rounded-xl col-span-3 overflow-hidden">
+                <img src="./Design 05_2024/img-5.png" alt="Image" class="h-2/3 mt-5">
+            </div>
+            <div class="c1 i8 rounded-xl col-span-2 overflow-hidden">
+                <img src="./Design 05_2024/img-8.png" alt="Image" class="w-full h-full object-cover" >
+            </div>
+        </div>
+    </div>
+</body>
+</html>
