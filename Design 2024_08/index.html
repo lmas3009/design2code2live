@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Management Dashboard</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Link to your external CSS file (optional) -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 p-10">
+
+  <div class="grid grid-cols-2 gap-6">
+    <!-- Card 1: Manage Employees Work -->
+    <div class="p-6 bg-white rounded-lg shadow-md">
+      <h2 class="text-lg font-semibold">Manage Employees Work</h2>
+      <p class="text-sm text-gray-500">Optimize employee performance and foster a positive work environment.</p>
+      <div class="mt-4">
+        <h3 class="font-medium">Employee Activity</h3>
+        <div class="mt-2 flex items-center">
+          <img src="https://via.placeholder.com/40" alt="Avatar" class="rounded-full">
+          <div class="ml-4">
+            <p class="font-semibold">John Doe</p>
+            <p class="text-xs text-gray-500">Reviewed and forwarded the invoice 30m ago.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2: Schedule Management -->
+    <div class="p-6 bg-white rounded-lg shadow-md">
+      <h2 class="text-lg font-semibold">Manage Employees Work</h2>
+      <p class="text-sm text-gray-500">Optimize employee performance and foster a positive work environment.</p>
+      <table class="mt-4 w-full border-collapse">
+        <thead>
+          <tr class="text-left border-b">
+            <th class="py-2">Employee</th>
+            <th>Department</th>
+            <th>Work By</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-b">
+            <td class="py-2">Bang Chan</td>
+            <td>General Manager</td>
+            <td>Remote</td>
+            <td><button class="text-blue-500">Manage</button></td>
+          </tr>
+          <tr>
+            <td class="py-2">Pham Hanhi</td>
+            <td>Social Specialist</td>
+            <td>Remote</td>
+            <td>Ongoing</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Card 3: Organize Meetings -->
+    <div class="p-6 bg-white rounded-lg shadow-md">
+      <h2 class="text-lg font-semibold">Organize Meetings</h2>
+      <p class="text-sm text-gray-500">Effortlessly schedule meetings using the calendar tool.</p>
+      <div class="mt-4">
+        <div class="bg-gray-200 rounded-lg p-4">
+          <h3 class="font-semibold mb-2">January 2024</h3>
+          <div class="grid grid-cols-7 gap-2 text-center">
+            <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+            <div>28</div><div>29</div><div>30</div><div>31</div><div>1</div><div>2</div><div>3</div>
+            <div class="text-blue-500 font-semibold">4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div><div>10</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4: Supervise Employees -->
+    <div class="p-6 bg-white rounded-lg shadow-md">
+      <h2 class="text-lg font-semibold">Supervise Your Employees</h2>
+      <p class="text-sm text-gray-500">Optimize employee performance and foster a positive work environment.</p>
+      <ul class="mt-4 space-y-2">
+        <li class="flex items-center space-x-4">
+          <img src="https://via.placeholder.com/40" alt="Avatar" class="rounded-full">
+          <span>Bang Chan - Product Manager</span>
+        </li>
+        <li class="flex items-center space-x-4">
+          <img src="https://via.placeholder.com/40" alt="Avatar" class="rounded-full">
+          <span>Pham Hanhi - Social Specialist</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Card 5: Filtered Search -->
+    <div class="p-6 bg-white rounded-lg shadow-md">
+      <h2 class="text-lg font-semibold">Filtered Search</h2>
+      <p class="text-sm text-gray-500">Embark on an enlightening quest with streamlined filtered search.</p>
+      <form class="mt-4 space-y-2">
+        <input type="text" placeholder="Location" class="w-full p-2 border rounded-md">
+        <div class="flex space-x-2">
+          <input type="number" placeholder="Bedrooms" class="w-1/2 p-2 border rounded-md">
+          <input type="text" placeholder="Price Range" class="w-1/2 p-2 border rounded-md">
+        </div>
+        <button type="submit" class="w-full bg-blue-500 text-white p-2 rounded-md">Apply</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
